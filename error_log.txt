@@ -1,0 +1,44 @@
+[VPPY9C9L9] Error: Locator.evaluate: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div#scrolling_battle_loader.ui.basic.segment")
+    - locator resolved to visible <div class="ui basic segment" id="scrolling_battle_loader">…</div>
+
+[20G9V0URJ8] Error: Locator.evaluate: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div#scrolling_battle_loader.ui.basic.segment")
+    - locator resolved to visible <div class="ui basic segment" id="scrolling_battle_loader">…</div>
+
+[CPRY8VY8U] Error: Locator.evaluate: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div#scrolling_battle_loader.ui.basic.segment")
+    - locator resolved to visible <div class="ui basic segment" id="scrolling_battle_loader">…</div>
+
+[YCRLJYJ8C] Error: Locator.evaluate: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div#scrolling_battle_loader.ui.basic.segment")
+
+[20GPU0UJQU] Error: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://royaleapi.com/player/20GPU0UJQU/battles/", waiting until "load"
+
+[2RQ0CRUGY] Error: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://royaleapi.com/player/2RQ0CRUGY/battles/", waiting until "load"
+
+[2G20RCJCU] Error: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://royaleapi.com/player/2G20RCJCU/battles/", waiting until "load"
+
+[J0VGUYQ2U] Error: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://royaleapi.com/player/J0VGUYQ2U/battles/", waiting until "load"
+
+[22CVVJVRC] Error: Locator.evaluate: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div#scrolling_battle_loader.ui.basic.segment")
+    - locator resolved to visible <div class="ui basic segment" id="scrolling_battle_loader">…</div>
+
+[2G0Q90GJJ] Error: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.text.fluid.menu.battle_bottom_menu").first.locator("div.item.i18n_duration_short.battle-timestamp-popup")
+
