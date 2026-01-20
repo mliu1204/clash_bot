@@ -1,0 +1,3038 @@
+Timeout for player 200R2P2JQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765222644 .markers") to be visible
+
+Timeout for player 20VY8YVCJV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766316304 .markers") to be visible
+
+Timeout for player YQ0P8L88Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767686644 .markers") to be visible
+
+Timeout for player RRY09GRGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player QLP2JJPLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768801885 .markers") to be visible
+
+Timeout for player CU0QVG2UC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767859308 .markers") to be visible
+
+Timeout for player VCC98QG20: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768764173 .markers") to be visible
+
+Timeout for player VYJVYP0GP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765431032 .markers") to be visible
+
+Timeout for player VYJJ2CU99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766220955 .markers") to be visible
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662 .markers") to be visible
+
+Timeout for player CLGCYLUUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 2008C0UVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764608160 .markers") to be visible
+
+Timeout for player 20JYYP280C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418 .markers") to be visible
+
+Timeout for player 200J0UC29V: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768856256 .markers") to be visible
+
+Timeout for player 20JUV2C9RQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    62 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLG0JR9UP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player PUPC0V8C9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player JGVLYVCRP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768859686 .markers") to be visible
+
+Timeout for player JP22UCLUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768736362 .markers") to be visible
+
+Timeout for player UCVR2LLG8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768854718 .markers") to be visible
+
+Timeout for player 20UUVUYPQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYLV0LU98: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player R0ULVJL9C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768298959 .markers") to be visible
+
+Timeout for player VPQUCGVQR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767861485 .markers") to be visible
+
+Timeout for player V8RGYR028: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VURCLUYQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768830859 .markers") to be visible
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302 .markers") to be visible
+
+Timeout for player VURRLLLVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player JCQPC020: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768854858 .markers") to be visible
+
+Timeout for player GGVL9P2UR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768836637 .markers") to be visible
+
+Timeout for player 20Y2VGCUGP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768834615 .markers") to be visible
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381 .markers") to be visible
+
+Timeout for player V8U8R2QCL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765309203 .markers") to be visible
+
+Timeout for player 29J2U2JJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851845 .markers") to be visible
+
+Timeout for player GYYUQU9JV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768745596 .markers") to be visible
+
+Timeout for player YG0992QU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766734330 .markers") to be visible
+
+Timeout for player J2QLYPRJR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768498267 .markers") to be visible
+
+Timeout for player 202V90URYJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768378565 .markers") to be visible
+
+Timeout for player 202R2URVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768864213 .markers") to be visible
+
+Timeout for player VL2GVR9PQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768841914 .markers") to be visible
+
+Timeout for player UUJVULYLP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768857157 .markers") to be visible
+
+Timeout for player 8RCJJLG2J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768720504 .markers") to be visible
+
+Timeout for player 200L2UQY9J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768556343 .markers") to be visible
+
+Timeout for player V9Y2CURPG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VV0VYG090: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768861148 .markers") to be visible
+
+Timeout for player 9QPG9JYLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 9Y8YPPYC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768849268 .markers") to be visible
+
+Timeout for player U8QPCURC9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768845431 .markers") to be visible
+
+Timeout for player VLCCL0LVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767114039 .markers") to be visible
+
+Timeout for player 20290QPUQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768812871 .markers") to be visible
+
+Timeout for player UUYJLRYGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768831860 .markers") to be visible
+
+Timeout for player 2L22PYR90: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768809128 .markers") to be visible
+
+Timeout for player RYQJGCPV2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768840301 .markers") to be visible
+
+Timeout for player R0UL2L9Y2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768804415 .markers") to be visible
+
+Timeout for player C99CUPYVU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768860583 .markers") to be visible
+
+Timeout for player CR2Y00LLR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768837511 .markers") to be visible
+
+Timeout for player URPC8JVV8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765274977 .markers") to be visible
+
+Timeout for player L20C8P8GC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766656226 .markers") to be visible
+
+Timeout for player R2LR8P0YV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 8JJGQPP99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768854288 .markers") to be visible
+
+Timeout for player PRLVYGJ02: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768670566 .markers") to be visible
+
+Timeout for player YRUJ8Q8P0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768236417 .markers") to be visible
+
+Timeout for player CU0QVG2UC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767857357") to be visible
+    57 × locator resolved to hidden <div class="deck_replay" id="replay-1767857357"></div>
+
+Timeout for player YQ0P8L88Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767685507") to be visible
+    58 × locator resolved to hidden <div class="deck_replay" id="replay-1767685507"></div>
+
+Timeout for player QLP2JJPLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768764277") to be visible
+    57 × locator resolved to hidden <div class="deck_replay" id="replay-1768764277"></div>
+
+Timeout for player 200R2P2JQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765221235 .markers") to be visible
+
+Timeout for player VQ9PURCUG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768859524") to be visible
+    58 × locator resolved to hidden <div class="deck_replay" id="replay-1768859524"></div>
+
+Timeout for player VQCC0JJQV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768751585") to be visible
+    58 × locator resolved to hidden <div class="deck_replay" id="replay-1768751585"></div>
+
+Timeout for player Y9YPQ0VGQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768855452") to be visible
+    58 × locator resolved to hidden <div class="deck_replay" id="replay-1768855452"></div>
+
+Timeout for player 20VY8YVCJV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766316304 .markers") to be visible
+
+Timeout for player QC0RR20QC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768755530 .markers") to be visible
+
+Timeout for player RRY09GRGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    53 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYJJ2CU99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766220955 .markers") to be visible
+
+Timeout for player VYJVYP0GP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765431032 .markers") to be visible
+
+Timeout for player 2008C0UVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764607812 .markers") to be visible
+
+Timeout for player 20JYYP280C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    62 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662 .markers") to be visible
+
+Timeout for player VPQVLCCPY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768847489 .markers") to be visible
+    59 × locator resolved to hidden <div class="markers">…</div>
+
+Timeout for player VCC98QG20: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768764173 .markers") to be visible
+
+Timeout for player 2089GJR2RP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768857479 .markers") to be visible
+
+Timeout for player CLGCYLUUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    58 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20UUVUYPQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    58 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player PUPC0V8C9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    58 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLG0JR9UP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    60 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JUV2C9RQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    61 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418 .markers") to be visible
+
+Timeout for player 9UJPJLG08: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768581731 .markers") to be visible
+
+Timeout for player V8U2GYQUR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768810594 .markers") to be visible
+
+Timeout for player UCVR2LLG8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768854718 .markers") to be visible
+
+Timeout for player 8C0LPGLU0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768758799 .markers") to be visible
+
+Timeout for player 20UC89CPRJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851318 .markers") to be visible
+
+Timeout for player R0ULVJL9C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768298959 .markers") to be visible
+
+Timeout for player CJRYL9Y89: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768757796 .markers") to be visible
+
+Timeout for player JGVLYVCRP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768859686 .markers") to be visible
+
+Timeout for player CVVR9CRGQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768054639 .markers") to be visible
+
+Timeout for player UV088PPVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767947660 .markers") to be visible
+
+Timeout for player VPJ2LC98L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767947939 .markers") to be visible
+
+Timeout for player VCJLJ0RLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768813748 .markers") to be visible
+
+Timeout for player C8C9JCVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768847099 .markers") to be visible
+
+Timeout for player JCQPC020: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768855201 .markers") to be visible
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381 .markers") to be visible
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302 .markers") to be visible
+
+Timeout for player VURRLLLVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    47 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYLV0LU98: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    52 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player GYYUQU9JV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768610707") to be visible
+    59 × locator resolved to hidden <div class="deck_replay" id="replay-1768610707"></div>
+
+Timeout for player VYYQ9CJLU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768140845 .markers") to be visible
+
+Timeout for player VURCLUYQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768830859 .markers") to be visible
+
+Timeout for player GJV8QGR2L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851637 .markers") to be visible
+
+Timeout for player V8U8R2QCL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765309203 .markers") to be visible
+
+Timeout for player 2JC2V90GC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768808581 .markers") to be visible
+
+Timeout for player V99U09U09: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768493140 .markers") to be visible
+
+Timeout for player 29J2U2JJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851845 .markers") to be visible
+
+Timeout for player UUJVULYLP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768832773") to be visible
+    59 × locator resolved to hidden <div class="deck_replay" id="replay-1768832773"></div>
+
+Timeout for player V8CRLRGC2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768854402 .markers") to be visible
+
+Timeout for player 88YQV2CG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768813579 .markers") to be visible
+
+Timeout for player V8RGYR028: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    43 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player Q08QPRLPR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768628620 .markers") to be visible
+
+Timeout for player 9PGV0V2JQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768808882 .markers") to be visible
+
+Timeout for player LUG9V9PQY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768873583 .markers") to be visible
+
+Timeout for player VLCCL0LVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767114039 .markers") to be visible
+
+Timeout for player 9QPG9JYLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    44 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V9Y2CURPG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    57 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player L20C8P8GC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766655792 .markers") to be visible
+
+Timeout for player 2L22PYR90: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768808701") to be visible
+    58 × locator resolved to hidden <div class="deck_replay" id="replay-1768808701"></div>
+
+Timeout for player 88LVQVP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768816008") to be visible
+    58 × locator resolved to hidden <div class="deck_replay" id="replay-1768816008"></div>
+
+Timeout for player 20JGGUJV8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768863573") to be visible
+    58 × locator resolved to hidden <div class="deck_replay" id="replay-1768863573"></div>
+
+Timeout for player JC0PYPRJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768842254") to be visible
+    58 × locator resolved to hidden <div class="deck_replay" id="replay-1768842254"></div>
+
+Timeout for player LP8VR9RCY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768818391") to be visible
+    58 × locator resolved to hidden <div class="deck_replay" id="replay-1768818391"></div>
+
+Timeout for player YQPGUC9CP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767606340 .markers") to be visible
+
+Timeout for player R2LR8P0YV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    52 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player R2JG8QQU8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768826162 .markers") to be visible
+
+Timeout for player 8RVRCJQLL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768858308 .markers") to be visible
+
+Timeout for player VV0VYG090: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768861148 .markers") to be visible
+
+Timeout for player 9L8P289PG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768814101 .markers") to be visible
+
+Timeout for player YG0992QU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766733793 .markers") to be visible
+
+Timeout for player YQ08QL0Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766487108 .markers") to be visible
+
+Timeout for player PRLVYGJ02: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768670566 .markers") to be visible
+
+Timeout for player VL2GVR9PQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768841914 .markers") to be visible
+
+Timeout for player UUYJLRYGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768758484") to be visible
+    60 × locator resolved to hidden <div class="deck_replay" id="replay-1768758484"></div>
+
+Timeout for player 20VY8YVCJV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766316304 .markers") to be visible
+
+Timeout for player 200R2P2JQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765222644 .markers") to be visible
+
+Timeout for player V2C29QJ2R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768655160 .markers") to be visible
+
+Timeout for player VQ9PURCUG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768859946 .markers") to be visible
+
+Timeout for player VYJJ2CU99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766220955 .markers") to be visible
+
+Timeout for player 2008C0UVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764608160 .markers") to be visible
+
+Timeout for player VYJVYP0GP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765431032 .markers") to be visible
+
+Timeout for player RRY09GRGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662 .markers") to be visible
+
+Timeout for player 20JYYP280C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player PUPC0V8C9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418 .markers") to be visible
+
+Timeout for player CLGCYLUUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JUV2C9RQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLG0JR9UP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20UUVUYPQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20UC89CPRJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851318 .markers") to be visible
+
+Timeout for player VVVJ2UJPV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768844368 .markers") to be visible
+
+Timeout for player VURRLLLVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYLV0LU98: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V8RGYR028: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V8U8R2QCL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765309203 .markers") to be visible
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302 .markers") to be visible
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381 .markers") to be visible
+
+Timeout for player 200R2P2JQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765222644 .markers") to be visible
+
+Timeout for player 20VY8YVCJV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766316304 .markers") to be visible
+
+Timeout for player QLP2JJPLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768801885 .markers") to be visible
+
+Timeout for player YQ0P8L88Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767686644 .markers") to be visible
+
+Timeout for player VYJVYP0GP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765431032 .markers") to be visible
+
+Timeout for player 2008C0UVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764608160 .markers") to be visible
+
+Timeout for player 20JYYP280C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYJJ2CU99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766220955 .markers") to be visible
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662 .markers") to be visible
+
+Timeout for player PUPC0V8C9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player RRY09GRGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JUV2C9RQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CLGCYLUUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    65 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418 .markers") to be visible
+
+Timeout for player 20UUVUYPQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLG0JR9UP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VPC0Q028Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768859686 .markers") to be visible
+
+Timeout for player VCJLJ0RLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768843084 .markers") to be visible
+
+Timeout for player UV088PPVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767947939 .markers") to be visible
+
+Timeout for player V8CRLRGC2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768865570 .markers") to be visible
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302 .markers") to be visible
+
+Timeout for player VURRLLLVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYLV0LU98: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V8RGYR028: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381 .markers") to be visible
+
+Timeout for player JC0PYPRJ: APIRequestContext.get: read ETIMEDOUT
+Call log:
+  - → GET https://royaleapi.com/player/JC0PYPRJ/battles/csv
+    - user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.7499.4 Safari/537.36
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - cookie: __royaleapi_session_v2=fcc2ce663c4142949bdfc6e69d7b61cf; NB_SRVID=srv743175; _gid=GA1.2.1568601336.1768866901; usnatUUID=eeae1ea2-71b6-494e-8f44-ec2a98a40f4a; _li_dcdm_c=.royaleapi.com; _lc2_fpi=5b41fd08e043--01kfcaxveyxrkqmz7c8w88gte8; _lc2_fpi_meta=%7B%22w%22%3A1768866901470%7D; cookie=f98fe111-4bcd-4246-9db6-475457c7327a; _lr_env_src_ats=false; _cc_id=7de3d772f71c32a679be9abbcff370bf; panoramaId_expiry=1768953301468; ccuid=60439ada-6fba-418a-9803-aab9915287f7; pbjs_fabrickId_cst=1CynLLQsLA%3D%3D; __qca=P1-2b3ddf8b-d3d6-42af-ae26-446360b8fa9f; gamera_user_id=7a653af5-74aa-4895-82e3-d6412dd02817; _au_1d=AU1D-0100-001768866902-939W00A4-X2GQ; _iiq_fdata=%7B%22pcid%22%3A%2260808c49-b47a-c796-bc78-29d22a05d0f7%22%2C%22pcidDate%22%3A1768866902389%7D; pbjs-unifiedid_cst=YiwPLDosoA%3D%3D; cto_bundle=CUkVlV9OUkY0bXptczN1anlMRlhKUFQ2Q0xiN3o4UVpWSDVPQ1h2MENHMVg4JTJGYmFoOCUyQlQ0NTltJTJGJTJCaGhzcFF4bWNTQm9Vc0d4Vm05amYzUkZsTThxcVl4NXk0eG5vUmY2UEVtOGF4R25HczU2JTJGVTJNMjg3eXMlMkIlMkJMSzVuYmpaS2wlMkZlSElTajdSWkxnUjJTa1VXNmxiZVpJaGR3JTNEJTNE; cf_clearance=aam_w3qxehQOpmQi0BGmwNyOQGVGYXJnLanV3tbuszo-1768891375-1.2.1.1-dcs7ACtpAEMOku2flM4BaBerr2eRSHqthn0qarJbvB5fZme8TveLZMSK17fQUa8LwQMv4PlJNPK18GtAH0Mjf9qB1CnSNYN1FI4QQ6jq20jkWEUPi1CRrenwkH480DAng4cdPhNZL4_1gqUDOyF7Lj_VJQDfP_e.f4PRhmmcnoSXXS7u51yv7g58TqteRc2bHn15jEy0PGBVRTAMKNOKbjoAQBUeEXXvZZLZen2aiB0; _lr_retry_request=true; pbjs_fabrickId=%7B%22fabrickId%22%3A%22E1%3AqKjbXk5DobA7mTtnFkR2jE-dhQAsIzR6OkiVyNgaOBHjrRBjcCRJJgX_oaO12Zg6KNOxjql4VSUsk751ZH3oS9rwRPBfw-eqgOEgiHu5vyI%22%7D; pbjs-unifiedid=%7B%22TDID%22%3A%222a6f8d7b-57d3-45b9-ab54-f7be34b29f41%22%2C%22TDID_LOOKUP%22%3A%22TRUE%22%2C%22TDID_CREATED_AT%22%3A%222025-12-20T06%3A42%3A56%22%7D; _ga_48L7KQ2BZD=deleted; __gads=ID=ad79651a67d43dbb:T=1768866901:RT=1768891677:S=ALNI_MY93D_7GpAqOb3tWe0Em26r_TOPDQ; __gpi=UID=000012f72001eb64:T=1768866901:RT=1768891677:S=ALNI_MYHb5ngwAJyrEXK3lEOF44tlAUD3A; __eoi=ID=6a283bd4f97a74c9:T=1768866901:RT=1768891677:S=AA-AfjZzqmq_O5gs2DR4uLD6vYV3; cookie_cst=1CynLLQsLA%3D%3D; _gat_UA-100687612-4=1; _ga_FVWZ0RM4DH=GS2.1.s1768891381$o1$g1$t1768891781$j1$l0$h0; _ga=GA1.1.1113556836.1768866901; _ga_48L7KQ2BZD=GS2.1.s1768891374$o2$g1$t1768891784$j14$l0$h0; pbjs-unifiedid_last=Tue%2C%2020%20Jan%202026%2006%3A49%3A46%20GMT
+
+Timeout for player V8U8R2QCL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765309203 .markers") to be visible
+
+Timeout for player 9QPG9JYLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player JCQPC020: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768753279 .markers") to be visible
+
+Timeout for player 200L2UQY9J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768596734 .markers") to be visible
+
+Timeout for player 9G0GUYCY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767891653 .markers") to be visible
+
+Timeout for player YG0992QU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766734330 .markers") to be visible
+
+Timeout for player 88YQV2CG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768747752 .markers") to be visible
+
+Timeout for player VL2GVR9PQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768841914 .markers") to be visible
+
+Timeout for player V9Y2CURPG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 200R2P2JQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765222644 .markers") to be visible
+
+Timeout for player 20VY8YVCJV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766316304 .markers") to be visible
+
+Timeout for player VJVJ0GJVJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768516538 .markers") to be visible
+
+Timeout for player CU0QVG2UC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767859308 .markers") to be visible
+
+Timeout for player QC0RR20QC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768843720 .markers") to be visible
+
+Timeout for player VCC98QG20: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768764173 .markers") to be visible
+
+Timeout for player VYJJ2CU99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766220955 .markers") to be visible
+
+Timeout for player RRY09GRGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VPQVLCCPY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768847826 .markers") to be visible
+
+Timeout for player VYJVYP0GP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765431032 .markers") to be visible
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662 .markers") to be visible
+
+Timeout for player 2008C0UVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764608160 .markers") to be visible
+
+Timeout for player PUPC0V8C9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player UVVYQJJC9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768651988 .markers") to be visible
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418 .markers") to be visible
+
+Timeout for player 20JYYP280C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLG0JR9UP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JUV2C9RQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20UUVUYPQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CLGCYLUUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player UCVR2LLG8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768854422 .markers") to be visible
+
+Timeout for player 20UC89CPRJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851318 .markers") to be visible
+
+Timeout for player R0ULVJL9C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768298959 .markers") to be visible
+
+Timeout for player JP22UCLUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768736362 .markers") to be visible
+
+Timeout for player VYLV0LU98: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    61 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V8RGYR028: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VPC0Q028Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768858885 .markers") to be visible
+
+Timeout for player JU0QPCJ9P: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768813088 .markers") to be visible
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381 .markers") to be visible
+
+Timeout for player VURRLLLVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V8U8R2QCL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765309203 .markers") to be visible
+
+Timeout for player 202R2URVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768864018 .markers") to be visible
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302 .markers") to be visible
+
+Timeout for player 20Y2VGCUGP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768834615 .markers") to be visible
+
+Timeout for player GGVL9P2UR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768836637 .markers") to be visible
+
+Timeout for player Q08QPRLPR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768628620 .markers") to be visible
+
+Timeout for player YG0992QU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766734330 .markers") to be visible
+
+Timeout for player 9QPG9JYLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 88YQV2CG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768813579 .markers") to be visible
+
+Timeout for player L8QG0VY9U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768850682 .markers") to be visible
+
+Timeout for player 202V90URYJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768378565 .markers") to be visible
+
+Timeout for player 20290QPUQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768815006 .markers") to be visible
+
+Timeout for player 9PGV0V2JQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768808882 .markers") to be visible
+
+Timeout for player V9Y2CURPG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VL2GVR9PQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768841914 .markers") to be visible
+
+Timeout for player VLCCL0LVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767114039 .markers") to be visible
+
+Timeout for player L20C8P8GC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766656226 .markers") to be visible
+
+Timeout for player RLYP2UUGV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768770567 .markers") to be visible
+
+Timeout for player 2L22PYR90: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768809332 .markers") to be visible
+
+Timeout for player 200R2P2JQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765222456 .markers") to be visible
+
+Timeout for player 20VY8YVCJV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766316304 .markers") to be visible
+
+Timeout for player RRY09GRGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CU0QVG2UC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767857357 .markers") to be visible
+
+Timeout for player VPQVLCCPY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768847826 .markers") to be visible
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662 .markers") to be visible
+
+Timeout for player 2008C0UVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764608160 .markers") to be visible
+
+Timeout for player 2089GJR2RP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768891586 .markers") to be visible
+
+Timeout for player VYJJ2CU99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766220955 .markers") to be visible
+
+Timeout for player VYJVYP0GP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765431032 .markers") to be visible
+
+Timeout for player CLGCYLUUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JYYP280C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player PUPC0V8C9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JUV2C9RQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418 .markers") to be visible
+
+Timeout for player 20UUVUYPQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CJRYL9Y89: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("button.replay_button").first
+    - locator resolved to <button data-draft="0" data-team-crowns="0" data-content="Replay" data-index="1768757796" data-opponent-crowns="1" data-position="top right" data-replay="02VPUQULPL8Q" data-team-tags="CJRYL9Y89" data-div="replay-1768757796" data-opponent-tags="UQ9G9J2CJ" class="ui orange circular icon button button_popup replay_button">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+Timeout for player VLG0JR9UP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player JP22UCLUQ: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://royaleapi.com/player/JP22UCLUQ/battles/", waiting until "domcontentloaded"
+
+Timeout for player R0ULVJL9C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768298959 .markers") to be visible
+
+Timeout for player VVVJ2UJPV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768844368 .markers") to be visible
+
+Timeout for player JGVLYVCRP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768859483 .markers") to be visible
+
+Timeout for player UCYU2J9P8: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://royaleapi.com/player/UCYU2J9P8/battles/", waiting until "domcontentloaded"
+
+Timeout for player 20UC89CPRJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851318 .markers") to be visible
+
+Timeout for player VYLV0LU98: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CVVR9CRGQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768054639 .markers") to be visible
+
+Timeout for player VURRLLLVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VURCLUYQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768830859 .markers") to be visible
+
+Timeout for player V8RGYR028: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302 .markers") to be visible
+
+Timeout for player V8U8R2QCL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765309203 .markers") to be visible
+
+Timeout for player JU0QPCJ9P: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768813278 .markers") to be visible
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381 .markers") to be visible
+
+Timeout for player JC0PYPRJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768845058 .markers") to be visible
+
+Timeout for player V99U09U09: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768493140 .markers") to be visible
+
+Timeout for player GGVL9P2UR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768825411 .markers") to be visible
+
+Timeout for player 202R2URVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768864018 .markers") to be visible
+
+Timeout for player 929JPLL09: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768731893 .markers") to be visible
+
+Timeout for player 20L2UPVL9R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768850668 .markers") to be visible
+
+Timeout for player 8RCJJLG2J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768719609 .markers") to be visible
+
+Timeout for player 2JC2V90GC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768808581 .markers") to be visible
+
+Timeout for player YG0992QU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766734330 .markers") to be visible
+
+Timeout for player 9QPG9JYLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    60 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20290QPUQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768815006 .markers") to be visible
+
+Timeout for player VLCCL0LVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767114039 .markers") to be visible
+
+Timeout for player 2JCQCGCG0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768344324 .markers") to be visible
+
+Timeout for player V9Y2CURPG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CC822VCYJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768855910 .markers") to be visible
+
+Timeout for player 9PGV0V2JQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768808246 .markers") to be visible
+
+Timeout for player 20QC800LJL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768585213 .markers") to be visible
+
+Timeout for player U8QPCURC9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768845431 .markers") to be visible
+
+Timeout for player UUUC8LR2C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768753506 .markers") to be visible
+
+Timeout for player UUYJLRYGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768831664 .markers") to be visible
+
+Timeout for player R2JG8QQU8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768826162 .markers") to be visible
+
+Timeout for player 8JJGQPP99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768884167 .markers") to be visible
+
+Timeout for player L20C8P8GC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766656226 .markers") to be visible
+
+Timeout for player R2LR8P0YV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    62 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V2LUJ8VR9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768562002 .markers") to be visible
+    63 × locator resolved to hidden <div class="markers">…</div>
+
+Timeout for player 20VY8YVCJV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768575003 .markers") to be visible
+    63 × locator resolved to hidden <div class="markers">…</div>
+
+Timeout for player 200R2P2JQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765222456 .markers") to be visible
+
+Timeout for player QC0RR20QC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768893263 .markers") to be visible
+    63 × locator resolved to hidden <div class="markers">…</div>
+
+Timeout for player VPQVLCCPY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768847826 .markers") to be visible
+
+Timeout for player VYJVYP0GP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765431032 .markers") to be visible
+
+Timeout for player V2C29QJ2R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768655160 .markers") to be visible
+
+Timeout for player YQ0P8L88Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767685507") to be visible
+    51 × locator resolved to hidden <div class="deck_replay" id="replay-1767685507"></div>
+
+Timeout for player VJVJ0GJVJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768516538 .markers") to be visible
+
+Timeout for player VQ9PURCUG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768860118 .markers") to be visible
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662 .markers") to be visible
+
+Timeout for player 2008C0UVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764608160 .markers") to be visible
+
+Timeout for player 2U0Y02V8P: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768764173 .markers") to be visible
+
+Timeout for player RRY09GRGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    58 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYJJ2CU99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766220955 .markers") to be visible
+
+Timeout for player PUPC0V8C9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    61 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20UUVUYPQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    61 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JYYP280C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    60 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CLGCYLUUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    61 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLG0JR9UP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 209UC08Q9U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851318 .markers") to be visible
+
+Timeout for player 20JUV2C9RQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418 .markers") to be visible
+
+Timeout for player UCVR2LLG8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768854718 .markers") to be visible
+
+Timeout for player JP22UCLUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768735897 .markers") to be visible
+
+Timeout for player VPQUCGVQR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767861485 .markers") to be visible
+
+Timeout for player UV088PPVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767947939 .markers") to be visible
+
+Timeout for player R0ULVJL9C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768298633 .markers") to be visible
+
+Timeout for player JGVLYVCRP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768859686 .markers") to be visible
+
+Timeout for player 20UC89CPRJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851318 .markers") to be visible
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381 .markers") to be visible
+
+Timeout for player VVVJ2UJPV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768831651 .markers") to be visible
+
+Timeout for player CVVR9CRGQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768054639 .markers") to be visible
+
+Timeout for player V8U8R2QCL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765309203 .markers") to be visible
+
+Timeout for player V8CRLRGC2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768865392 .markers") to be visible
+
+Timeout for player VYLV0LU98: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    59 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player C8C9JCVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768893407 .markers") to be visible
+
+Timeout for player V8RGYR028: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    60 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302 .markers") to be visible
+
+Timeout for player 200L2UQY9J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768596734 .markers") to be visible
+
+Timeout for player VURRLLLVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player GYYUQU9JV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768745596 .markers") to be visible
+
+Timeout for player GJV8QGR2L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768893288 .markers") to be visible
+
+Timeout for player LUG9V9PQY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768873583 .markers") to be visible
+
+Timeout for player JCQPC020: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768855201 .markers") to be visible
+
+Timeout for player YG0992QU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766734330 .markers") to be visible
+
+Timeout for player GGVL9P2UR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768836637 .markers") to be visible
+
+Timeout for player J2QLYPRJR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768740779 .markers") to be visible
+
+Timeout for player 202V90URYJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768378565 .markers") to be visible
+
+Timeout for player 9QPG9JYLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 8RCJJLG2J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768719259 .markers") to be visible
+
+Timeout for player VL2GVR9PQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768841914 .markers") to be visible
+
+Timeout for player 20290QPUQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768812455 .markers") to be visible
+
+Timeout for player V99U09U09: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768493140 .markers") to be visible
+
+Timeout for player 9PGV0V2JQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768808882 .markers") to be visible
+
+Timeout for player V9Y2CURPG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLCCL0LVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767114039 .markers") to be visible
+
+Timeout for player L8QG0VY9U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851039 .markers") to be visible
+
+Timeout for player U8QPCURC9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768845431 .markers") to be visible
+
+Timeout for player 20LRUC08P0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768728186 .markers") to be visible
+
+Timeout for player L20C8P8GC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766656226 .markers") to be visible
+
+Timeout for player CR2Y00LLR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768837511 .markers") to be visible
+
+Timeout for player C99CUPYVU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768860583 .markers") to be visible
+
+Timeout for player 20JGGUJV8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768892192 .markers") to be visible
+
+Timeout for player VYYQ9CJLU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768140064 .markers") to be visible
+
+Timeout for player R2LR8P0YV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CC822VCYJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768855910 .markers") to be visible
+
+Timeout for player 9L8P289PG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768814101 .markers") to be visible
+
+Timeout for player UUUC8LR2C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768753506 .markers") to be visible
+
+Timeout for player RJ89L2CRU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768159074 .markers") to be visible
+
+Timeout for player 88LVQVP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768816008 .markers") to be visible
+
+Timeout for player LP8VR9RCY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768818391 .markers") to be visible
+
+Timeout for player 9Y8YPPYC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768656558 .markers") to be visible
+
+Timeout for player URPC8JVV8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765274977 .markers") to be visible
+
+Timeout for player 8RVRCJQLL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768858308 .markers") to be visible
+
+Timeout for player VQYCPUQJ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768838093 .markers") to be visible
+
+Timeout for player 9Y9YCVYJY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768235561 .markers") to be visible
+
+Timeout for player 8JJGQPP99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768884167 .markers") to be visible
+
+Timeout for player YRP0C9JV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768832533 .markers") to be visible
+
+Timeout for player YQ08QL0Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766487108 .markers") to be visible
+
+Timeout for player 2J0L2J9YC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768836015 .markers") to be visible
+
+Timeout for player P899LQ90L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    62 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player YQPGUC9CP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767606340 .markers") to be visible
+
+Timeout for player U0PYVJ8PU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768848224 .markers") to be visible
+
+Timeout for player V09QC0RVJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768235115 .markers") to be visible
+
+Timeout for player 2RPYVCUYY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player R0UL2L9Y2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768804415 .markers") to be visible
+
+Timeout for player UUYJLRYGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768831860 .markers") to be visible
+
+Timeout for player VL9UC9R2Q: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768461711 .markers") to be visible
+
+Timeout for player V0LQJQCQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768689157 .markers") to be visible
+
+Timeout for player 200R2P2JQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765220978") to be visible
+    64 × locator resolved to hidden <div class="deck_replay" id="replay-1765220978"></div>
+
+Timeout for player 20VY8YVCJV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765645986 .markers") to be visible
+
+Timeout for player CU0QVG2UC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767859308 .markers") to be visible
+
+Timeout for player V2C29QJ2R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768655160 .markers") to be visible
+
+Timeout for player 2008C0UVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764608160 .markers") to be visible
+
+Timeout for player VQ9PURCUG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768860118 .markers") to be visible
+
+Timeout for player QLP2JJPLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768801885 .markers") to be visible
+
+Timeout for player VJVJ0GJVJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768516538 .markers") to be visible
+
+Timeout for player 2U0Y02V8P: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768764173 .markers") to be visible
+
+Timeout for player VYJJ2CU99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766220955 .markers") to be visible
+
+Timeout for player 20JYYP280C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    65 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CLGCYLUUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VPQVLCCPY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768847618 .markers") to be visible
+
+Timeout for player VYJVYP0GP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765431032 .markers") to be visible
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662 .markers") to be visible
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418 .markers") to be visible
+
+Timeout for player PUPC0V8C9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player RRY09GRGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 2089GJR2RP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768891586 .markers") to be visible
+
+Timeout for player J9UG8CYVR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768823910 .markers") to be visible
+
+Timeout for player UVVYQJJC9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768651988 .markers") to be visible
+
+Timeout for player 20JUV2C9RQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20UUVUYPQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V8CRLRGC2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768866143 .markers") to be visible
+
+Timeout for player V8U2GYQUR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768810028 .markers") to be visible
+
+Timeout for player UCYU2J9P8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768740586 .markers") to be visible
+
+Timeout for player V8RGYR028: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYLV0LU98: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLG0JR9UP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CUPPJ0JPL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767598937 .markers") to be visible
+
+Timeout for player VURRLLLVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20Y2VGCUGP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768834615 .markers") to be visible
+
+Timeout for player JGVLYVCRP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768859686 .markers") to be visible
+
+Timeout for player R0ULVJL9C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768298959 .markers") to be visible
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381 .markers") to be visible
+
+Timeout for player YG0992QU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766734330 .markers") to be visible
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302 .markers") to be visible
+
+Timeout for player VVVJ2UJPV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768844368 .markers") to be visible
+
+Timeout for player J2QLYPRJR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768740779 .markers") to be visible
+
+Timeout for player Q08QPRLPR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768628620 .markers") to be visible
+
+Timeout for player JC0PYPRJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768845058 .markers") to be visible
+
+Timeout for player GYYUQU9JV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768745596 .markers") to be visible
+
+Timeout for player VPJ2LC98L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767947939 .markers") to be visible
+
+Timeout for player VLCCL0LVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767114039 .markers") to be visible
+
+Timeout for player 9QPG9JYLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player UUUC8LR2C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768753506 .markers") to be visible
+
+Timeout for player GJV8QGR2L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768893288 .markers") to be visible
+
+Timeout for player VPQUCGVQR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767861485 .markers") to be visible
+
+Timeout for player L20C8P8GC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766656226 .markers") to be visible
+
+Timeout for player V9Y2CURPG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VL2GVR9PQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768841914 .markers") to be visible
+
+Timeout for player V8U8R2QCL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765309203 .markers") to be visible
+
+Timeout for player LP8VYR90: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768601056 .markers") to be visible
+
+Timeout for player C99CUPYVU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768860583 .markers") to be visible
+
+Timeout for player CR2Y00LLR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768837511 .markers") to be visible
+
+Timeout for player 929JPLL09: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768731822 .markers") to be visible
+
+Timeout for player R2LR8P0YV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20LRUC08P0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768727973 .markers") to be visible
+
+Timeout for player GGVL9P2UR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768832740 .markers") to be visible
+
+Timeout for player RYQJGCPV2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768840301 .markers") to be visible
+
+Timeout for player 20QC800LJL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768585484 .markers") to be visible
+
+Timeout for player 2L22PYR90: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768809332 .markers") to be visible
+
+Timeout for player 29J2U2JJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851845 .markers") to be visible
+
+Timeout for player 92YLCL2R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768865342 .markers") to be visible
+
+Timeout for player 9L8P289PG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768814101 .markers") to be visible
+
+Timeout for player 9Y9YCVYJY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768652702 .markers") to be visible
+
+Timeout for player CC822VCYJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768855910 .markers") to be visible
+
+Timeout for player 20290QPUQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768815006 .markers") to be visible
+
+Timeout for player 88LVQVP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768817925 .markers") to be visible
+
+Timeout for player 2RPYVCUYY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player URPC8JVV8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765274977 .markers") to be visible
+
+Timeout for player UUYJLRYGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768831860 .markers") to be visible
+
+Timeout for player R2JG8QQU8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768826162 .markers") to be visible
+
+Timeout for player JJ9R0PRUG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768591221 .markers") to be visible
+
+Timeout for player U8QPCURC9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768845431 .markers") to be visible
+
+Timeout for player V0YUVQ0QC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768823257 .markers") to be visible
+
+Timeout for player U0PYVJ8PU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768844961 .markers") to be visible
+
+Timeout for player P899LQ90L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player YQ08QL0Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766487108 .markers") to be visible
+
+Timeout for player 200R2P2JQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765222644 .markers") to be visible
+
+Timeout for player 20VY8YVCJV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766316304 .markers") to be visible
+
+Timeout for player 2U0Y02V8P: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768764173 .markers") to be visible
+
+Timeout for player V2C29QJ2R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768655160 .markers") to be visible
+
+Timeout for player YQ0P8L88Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767686644 .markers") to be visible
+
+Timeout for player CU0QVG2UC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767859308 .markers") to be visible
+
+Timeout for player RRY09GRGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 2008C0UVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764608160 .markers") to be visible
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662 .markers") to be visible
+
+Timeout for player VYJJ2CU99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766220955 .markers") to be visible
+
+Timeout for player VYJVYP0GP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765431032 .markers") to be visible
+
+Timeout for player CLGCYLUUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JYYP280C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V2R8C2LRP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768829506 .markers") to be visible
+
+Timeout for player PUPC0V8C9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JUV2C9RQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418 .markers") to be visible
+
+Timeout for player 20UUVUYPQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLG0JR9UP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VPJ2LC98L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767947939 .markers") to be visible
+
+Timeout for player VCJLJ0RLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768843084 .markers") to be visible
+
+Timeout for player 20UC89CPRJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768851318 .markers") to be visible
+
+Timeout for player UCVR2LLG8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768854718 .markers") to be visible
+
+Timeout for player JGVLYVCRP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768858885 .markers") to be visible
+
+Timeout for player C8C9JCVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768887753 .markers") to be visible
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302 .markers") to be visible
+
+Timeout for player VYLV0LU98: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VPC0Q028Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768894187 .markers") to be visible
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381 .markers") to be visible
+
+Timeout for player V8CRLRGC2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768866143 .markers") to be visible
+
+Timeout for player VURCLUYQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768734363 .markers") to be visible
+
+Timeout for player VURRLLLVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V99U09U09: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768492947 .markers") to be visible
+
+Timeout for player V8RGYR028: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V8U8R2QCL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765309203 .markers") to be visible
+
+Timeout for player JU0QPCJ9P: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768813278 .markers") to be visible
+
+Timeout for player 8RCJJLG2J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768720504 .markers") to be visible
+
+Timeout for player 20L2UPVL9R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768850668 .markers") to be visible
+
+Timeout for player VYYQ9CJLU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768140845 .markers") to be visible
+
+Timeout for player VV0VYG090: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768861148 .markers") to be visible
+
+Timeout for player GGVL9P2UR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768836637 .markers") to be visible
+
+Timeout for player 20LRUC08P0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768728336 .markers") to be visible
+
+Timeout for player 9QPG9JYLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLCCL0LVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767114039 .markers") to be visible
+
+Timeout for player 2JCQCGCG0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768344324 .markers") to be visible
+
+Timeout for player YG0992QU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766734330 .markers") to be visible
+
+Timeout for player 20QC800LJL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768585484 .markers") to be visible
+
+Timeout for player 20290QPUQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768815006 .markers") to be visible
+
+Timeout for player YQPGUC9CP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767606340 .markers") to be visible
+
+Timeout for player CR2Y00LLR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768837511 .markers") to be visible
+
+Timeout for player 9PGV0V2JQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768808882 .markers") to be visible
+
+Timeout for player 9Y8YPPYC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768849268 .markers") to be visible
+
+Timeout for player V9Y2CURPG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player U8QPCURC9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768845431 .markers") to be visible
+
+Timeout for player L20C8P8GC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766656021 .markers") to be visible
+
+Timeout for player PRLVYGJ02: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768563290 .markers") to be visible
+
+Timeout for player 20VY8YVCJV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768575003 .markers") to be visible
+    62 × locator resolved to hidden <div class="markers">…</div>
+
+Timeout for player 200R2P2JQ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765222456 .markers") to be visible
+
+Timeout for player VYJJ2CU99: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766220955 .markers") to be visible
+
+Timeout for player 2008C0UVQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764608160 .markers") to be visible
+
+Timeout for player VYJVYP0GP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765431032 .markers") to be visible
+
+Timeout for player RRY09GRGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662 .markers") to be visible
+
+Timeout for player 20JYYP280C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player PUPC0V8C9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLG0JR9UP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418 .markers") to be visible
+
+Timeout for player CLGCYLUUQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JUV2C9RQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20UUVUYPQQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYLV0LU98: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VPJ2LC98L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767947939 .markers") to be visible
+
+Timeout for player V8RGYR028: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VURRLLLVV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302 .markers") to be visible
+
+Timeout for player JU0QPCJ9P: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768813278 .markers") to be visible
+
+Timeout for player V8U8R2QCL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765309203 .markers") to be visible
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381 .markers") to be visible
+
+Timeout for player V99U09U09: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768492947 .markers") to be visible
+
+Timeout for player 9QPG9JYLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VURCLUYQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768830859 .markers") to be visible
+
+Timeout for player 9L8P289PG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768761551 .markers") to be visible
+
+Timeout for player 9PGV0V2JQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768808882 .markers") to be visible
+
+Timeout for player 20LRUC08P0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768728336 .markers") to be visible
+
+Timeout for player 20290QPUQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768815006 .markers") to be visible
+
+Timeout for player YG0992QU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766734330 .markers") to be visible
+
+Timeout for player P899LQ90L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V9Y2CURPG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLCCL0LVY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767114039 .markers") to be visible
+
+Timeout for player L20C8P8GC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766656226 .markers") to be visible
+
+Timeout for player VQYCPUQJ8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768838093 .markers") to be visible
+
+Timeout for player VL9UC9R2Q: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768461497 .markers") to be visible
+
+Timeout for player R2LR8P0YV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    65 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player LP8VR9RCY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768833168 .markers") to be visible
+
+Timeout for player YRP0C9JV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768832533 .markers") to be visible
+
+Timeout for player VUP0J02VQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768689395 .markers") to be visible
+
+Timeout for player RJ89L2CRU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768159074 .markers") to be visible
+
+Timeout for player 288ULGLYR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768854028 .markers") to be visible
+
+Timeout for player YRLVVP9UR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768815327 .markers") to be visible
+
+Timeout for player URPC8JVV8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765274977 .markers") to be visible
+
+Timeout for player YQ08QL0Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766487108 .markers") to be visible
+
+Timeout for player UP0RJCQY9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 200PJCCGUV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766949610 .markers") to be visible
+
+Timeout for player LUQ9RPRLG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768868635 .markers") to be visible
+
+Timeout for player V09QC0RVJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768235115 .markers") to be visible
+
+Timeout for player P9LC0YCRR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768846676 .markers") to be visible
+
+Timeout for player 20YJGQQL2J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player UG2QU28V0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766523804 .markers") to be visible
+
+Timeout for player UCLQ990C2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764619100 .markers") to be visible
+
+Timeout for player 2RPYVCUYY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20PQVCYQLG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766574753 .markers") to be visible
+
+Timeout for player V9G0URPP2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768737353 .markers") to be visible
+
+Timeout for player RJ2JGP88G: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768342356 .markers") to be visible
+
+Timeout for player 20URCV2J8P: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766176151 .markers") to be visible
+
+Timeout for player 2UVLVYYYP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764763251 .markers") to be visible
+
+Timeout for player 20URG8PL0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768846978 .markers") to be visible
+
+Timeout for player 20CV90PR0C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765390103 .markers") to be visible
+
+Timeout for player P2GP8LJ2G: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767812227 .markers") to be visible
+
+Timeout for player CVVRLG0G2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player C99UYQY8R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768815569 .markers") to be visible
+
+Timeout for player RYL8V0L0R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765745824 .markers") to be visible
+
+Timeout for player YVJRPVQY2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766175965 .markers") to be visible
+
+Timeout for player C80U0CJ0U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768414409 .markers") to be visible
+
+Timeout for player UVP20VVL2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player LQGLPG2RP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768746864 .markers") to be visible
+
+Timeout for player 2GLUVR8YG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768847655 .markers") to be visible
+
+Timeout for player G8022Q2LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768877582 .markers") to be visible
+
+Timeout for player 92VQQ99PJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768892987 .markers") to be visible
+
+Timeout for player VQPCVCU2Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768808907 .markers") to be visible
+
+Timeout for player J8RLYJQCJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768845215 .markers") to be visible
+
+Timeout for player JVLR9J8YV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768640848 .markers") to be visible
+
+Timeout for player GLVJ99220: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768842573 .markers") to be visible
+
+Timeout for player 22JVLQC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767336292 .markers") to be visible
+
+Timeout for player 9L8QRCQJ0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767192222 .markers") to be visible
+
+Timeout for player 8GJUJ92J9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768410265 .markers") to be visible
+
+Timeout for player 2GR2QV2RG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766432382 .markers") to be visible
+
+Timeout for player VJRLYUVVL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768857043 .markers") to be visible
+
+Timeout for player P9R90URY2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767216109 .markers") to be visible
+
+Timeout for player V2VCGPGU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768786663 .markers") to be visible
+
+Timeout for player GCJG9QR2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768710998 .markers") to be visible
+
+Timeout for player JURJP9C9C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766609626 .markers") to be visible
+
+Timeout for player VV2PVU98C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766316900 .markers") to be visible
+
+Timeout for player VRRV0QCRR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768859865 .markers") to be visible
+
+Timeout for player 892VPJULL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768838314 .markers") to be visible
+
+Timeout for player VUV9G92L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player PJ02GGQCG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player PP2220QRJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768579135 .markers") to be visible
+
+Timeout for player YGQC2Q0VP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768839180 .markers") to be visible
+
+Timeout for player 8LQJGY0RU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768807730 .markers") to be visible
+
+Timeout for player 200P82U8PP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768157724 .markers") to be visible
+
+Timeout for player 20L92VUYY2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768896345 .markers") to be visible
+
+Timeout for player V8R8UR20Q: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765834098 .markers") to be visible
+
+Timeout for player Y2LC2U280: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767191950 .markers") to be visible
+
+Timeout for player VYRGYG0Y8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767165357 .markers") to be visible
+
+Timeout for player 9VP8U9Y9L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764701802 .markers") to be visible
+
+Timeout for player YUGGQ8YLY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768894885 .markers") to be visible
+
+Timeout for player QG8L0LLR2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765101872 .markers") to be visible
+
+Timeout for player 22GLRLYU2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768481538 .markers") to be visible
+
+Timeout for player PGJUU9YGQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766741826 .markers") to be visible
+
+Timeout for player V2PQRV2UU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768862152 .markers") to be visible
+
+Timeout for player GLYLYJJP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766413731 .markers") to be visible
+
+Timeout for player PC29PPUQR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VP89LUCJ0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764718843 .markers") to be visible
+
+Timeout for player 20QJCRGLCV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767076148 .markers") to be visible
+
+Timeout for player VG2GL9C08: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768852926 .markers") to be visible
+
+Timeout for player 20GRJV8UVC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766212063 .markers") to be visible
+
+Timeout for player 20LQUY2Y29: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767121511 .markers") to be visible
+
+Timeout for player CJCCV22QR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768843739 .markers") to be visible
+
+Timeout for player CQJJURYQ2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768577418 .markers") to be visible
+
+Timeout for player QP0CJJ9Q2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767197920 .markers") to be visible
+
+Timeout for player CU98VYJU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765557146 .markers") to be visible
+
+Timeout for player V2GCP9GLU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768835602 .markers") to be visible
+
+Timeout for player JJ0JRVPQJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767098601 .markers") to be visible
+
+Timeout for player V2U9G2QLJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VYC09RV8U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764958858 .markers") to be visible
+
+Timeout for player V09URLV0Q: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VCPV0YQY2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VP2UQR92R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20YQCGJUQ2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    61 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 209QQUP2LU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764780575 .markers") to be visible
+
+Timeout for player CJR2GYL9U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766219372 .markers") to be visible
+
+Timeout for player VVQC8PVLQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765727584 .markers") to be visible
+
+Timeout for player UG9RGJ20P: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766688886 .markers") to be visible
+
+Timeout for player 2JJLQQCGJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767212245 .markers") to be visible
+
+Timeout for player 208UJQUG9L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768581544 .markers") to be visible
+
+Timeout for player V9YC0082V: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766169624 .markers") to be visible
+
+Timeout for player V2CUU0YVQ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    62 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 2098J0UPUV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768418802 .markers") to be visible
+
+Timeout for player 20UQRVJ9PC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768752676 .markers") to be visible
+
+Timeout for player VYRP0L99C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768850381 .markers") to be visible
+
+Timeout for player UUGVQG80Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765819612 .markers") to be visible
+
+Timeout for player V2Q0PPPCR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    58 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player L0QPLUGV8: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768750512 .markers") to be visible
+
+Timeout for player 20JVP0RR0U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 9G988LV9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player UJ9PJL8YG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    62 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20JCV8PR8R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766679385 .markers") to be visible
+
+Timeout for player VVUJR2QP0: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768814194 .markers") to be visible
+
+Timeout for player PYGVRUY9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768411506 .markers") to be visible
+
+Timeout for player C9JC2L8RV: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 9JG0V900U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VLRYU90JL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765618568 .markers") to be visible
+
+Timeout for player 9QPJLVR8J: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767185842 .markers") to be visible
+
+Timeout for player V9JC002CJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766668369 .markers") to be visible
+
+Timeout for player VLL8LCGQG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767122021 .markers") to be visible
+
+Timeout for player VP9G92U8V: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player V9VYR9YQJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768841286 .markers") to be visible
+
+Timeout for player 200JL0GL2C: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767974390 .markers") to be visible
+
+Timeout for player VLUCCPJP2: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player VGC8CVC8R: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768567502 .markers") to be visible
+
+Timeout for player VYRPJPG90: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20VPVL2JJP: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    63 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20L2GR8JPL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player U2UP8VJ0L: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768743602 .markers") to be visible
+
+Timeout for player VPP98QLUR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768813038 .markers") to be visible
+
+Timeout for player 20RL0PCY9U: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    62 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 2008VGCJ92: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player JUUV9J92Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768607216 .markers") to be visible
+
+Timeout for player 20G29RYP82: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766842013 .markers") to be visible
+
+Timeout for player V9Y2QP2YJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764653505 .markers") to be visible
+
+Timeout for player VYGU2JUJG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766956540 .markers") to be visible
+
+Timeout for player VLV9CPQLC: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768677979 .markers") to be visible
+
+Timeout for player V8P0YGLLY: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766310813 .markers") to be visible
+
+Timeout for player 20VYYCJLJU: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768897520 .markers") to be visible
+
+Timeout for player 2QLULUUGG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766044990 .markers") to be visible
+
+Timeout for player VY0VJ080Y: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766861912 .markers") to be visible
+
+Timeout for player LC9LVGYYG: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768508279 .markers") to be visible
+
+Timeout for player VL2Q02JYR: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1768894978 .markers") to be visible
+
+Timeout for player 8J2CULVL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    61 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player UUGQVL22G: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766160532 .markers") to be visible
+
+Timeout for player 20LPC2V02V: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    61 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player UVLYV9J0G: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766332919 .markers") to be visible
+
+Timeout for player 20PJPPQ8Q9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20CLG0CYG9: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player 20P2CULU02: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player CP0P0Y2YL: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766909697 .markers") to be visible
+
+Timeout for player VP99RYYCJ: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.ui.container.sidemargin0.battle_list_container") to be visible
+    64 × locator resolved to hidden <div class="ui container sidemargin0 battle_list_container">…</div>
+
+Timeout for player GGP2QC9P: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766689001 .markers") to be visible
+
