@@ -227374,3 +227374,11 @@ Timeout for player VUYLL0U80: Locator.wait_for: Timeout 10000ms exceeded.
 Call log:
   - waiting for locator("#replay-1769038870").locator(".ui.info.message, .battle_replay").first to be visible
 
+Timeout for player UQ9V09CJ: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+
+Timeout for player PQRUG00Q: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+
+Timeout for player 9JVJ29Y0V: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+
+Timeout for player 20RVCP9CC: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+
