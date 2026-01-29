@@ -227382,3 +227382,81 @@ Timeout for player 9JVJ29Y0V: Error tokenizing data. C error: Expected 1 fields 
 
 Timeout for player 20RVCP9CC: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
 
+Timeout for player YG0992QU: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766734330").locator(".ui.info.message, .battle_replay").first to be visible
+
+Timeout for player 9YLLCUUPR: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1769637117").locator(".ui.info.message, .battle_replay").first to be visible
+
+Timeout for player L20C8P8GC: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766656226").locator(".ui.info.message, .battle_replay").first to be visible
+
+Timeout for player C8QGYGRGU: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1767092662").locator(".ui.info.message, .battle_replay").first to be visible
+
+Timeout for player QPVUQ80LU: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1764690418").locator(".ui.info.message, .battle_replay").first to be visible
+
+Timeout for player LVPGLJR8U: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1766868381").locator(".ui.info.message, .battle_replay").first to be visible
+
+Timeout for player VYRRGLC8J: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#replay-1765695302").locator(".ui.info.message, .battle_replay").first to be visible
+
+Timeout for player C8QGYGRGU: Page.goto: net::ERR_ABORTED at https://royaleapi.com/player/C8QGYGRGU/battles/
+Call log:
+  - navigating to "https://royaleapi.com/player/C8QGYGRGU/battles/", waiting until "commit"
+
+Timeout for player VYJVYP0GP: Locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("button.replay_button").first
+    - locator resolved to <button data-draft="0" data-team-crowns="3" data-content="Replay" data-index="1765431032" data-opponent-crowns="1" data-position="top right" data-replay="00PY0UUCLU9Y" data-team-tags="VYJVYP0GP" data-div="replay-1765431032" data-opponent-tags="VL2RCC0YY" class="ui orange circular icon button button_popup replay_button">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+Timeout for player 20JUV2C9RQ: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://royaleapi.com/player/20JUV2C9RQ/battles/", waiting until "commit"
+
+Timeout for player QPVUQ80LU: Page.goto: Target page, context or browser has been closed
+Timeout for player VYJJ2CU99: Locator.count: Target page, context or browser has been closed
+Timeout for player 2008C0UVQQ: Locator.wait_for: Target page, context or browser has been closed
+Timeout for player 200G9QUYCY: Page.goto: Target page, context or browser has been closed
+Timeout for player 200R2P2JQ8: Locator.count: Target page, context or browser has been closed
+Timeout for player V88VV9VL9: Page.goto: Target page, context or browser has been closed
+Timeout for player 20JYYP280C: Page.goto: Target page, context or browser has been closed
+Timeout for player PUPC0V8C9: Page.goto: Target page, context or browser has been closed
+Timeout for player V8U8R2QCL: Page.goto: Target page, context or browser has been closed
+Timeout for player RRY09GRGG: Page.goto: Target page, context or browser has been closed
+Timeout for player VYLV0LU98: Page.goto: Target page, context or browser has been closed
+Timeout for player VLG0JR9UP: Page.goto: Target page, context or browser has been closed
+Timeout for player 20UUVUYPQQ: Page.goto: Target page, context or browser has been closed
+Timeout for player V99U09U09: Page.goto: Target page, context or browser has been closed
+Timeout for player CLGCYLUUQ: Page.goto: Target page, context or browser has been closed
+Timeout for player LU0UGGPP9: Page.goto: Target page, context or browser has been closed
+Timeout for player VURRLLLVV: Page.goto: Target page, context or browser has been closed
+Timeout for player V8RGYR028: Page.goto: Target page, context or browser has been closed
+Timeout for player VLCCL0LVY: Page.goto: Target page, context or browser has been closed
+Timeout for player VU0VGJJQG: Page.goto: Target page, context or browser has been closed
+Timeout for player 20800LPQJU: Page.goto: Target page, context or browser has been closed
+Timeout for player LVPGLJR8U: Page.goto: Target page, context or browser has been closed
+Timeout for player UYVPQYL99: Page.goto: Target page, context or browser has been closed
+Timeout for player VYRRGLC8J: Page.goto: Target page, context or browser has been closed
+Timeout for player 89VY8GV99: Page.goto: Target page, context or browser has been closed
+Timeout for player 9QPG9JYLQ: Page.goto: Target page, context or browser has been closed
+Timeout for player YG0992QU: Page.goto: Target page, context or browser has been closed
+Timeout for player 9YLLCUUPR: Page.goto: Target page, context or browser has been closed
+Timeout for player L20C8P8GC: Page.goto: Target page, context or browser has been closed
+Timeout for player R2LR8P0YV: Page.goto: Target page, context or browser has been closed
+Timeout for player V9Y2CURPG: Page.goto: Target page, context or browser has been closed
