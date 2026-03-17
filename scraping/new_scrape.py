@@ -18,6 +18,7 @@ STORAGE_STATE_PATH = os.path.join(ROOT_DIR, "scraping/myGoogleAuth.json")
 ERROR_LOG_PATH_BASE = "error_log.txt"
 SCRAPED_PLAYERS_FILE_BASE = "scraping/scraped_players.txt"
 BATTLE_META_CSV_BASE = "data/scraped_data/battle_meta_data.csv"
+META_CSV_LOCK = asyncio.Lock()
 PROGRESS_LOG_PATH_BASE = "progress_log.txt"
 # Progress log update function
 def update_progress_log(progress_log_path, battles_scraped, players_scraped, start_time):
@@ -97,6 +98,90 @@ def remaining_player_ids(all_player_ids: list[str], scraped_file: str) -> list[s
     # Resume strictly AFTER the last scraped one
     return all_player_ids[last_index + 1:]
 
+
+def append_df_to_csv(path: str, df: pd.DataFrame) -> None:
+    """
+    Append df to the CSV at path. Aligns to existing columns (missing values in df stay empty).
+    If df has columns not in the file, those columns are added and existing rows get empty values.
+    """
+    if df.empty:
+        return
+    df = df.copy()
+    existing_columns = []
+    if os.path.exists(path):
+        existing_columns = pd.read_csv(path, nrows=0).columns.tolist()
+    all_columns = existing_columns + [c for c in df.columns if c not in existing_columns]
+    df_aligned = df.reindex(columns=all_columns)
+
+    if not existing_columns:
+        d = os.path.dirname(path)
+        if d:
+            os.makedirs(d, exist_ok=True)
+        df_aligned.to_csv(path, mode="w", header=True, index=False)
+        return
+    if set(df.columns) - set(existing_columns):
+        existing_df = pd.read_csv(path)
+        existing_aligned = existing_df.reindex(columns=all_columns)
+        combined = pd.concat([existing_aligned, df_aligned], ignore_index=True)
+        combined.to_csv(path, mode="w", header=True, index=False)
+    else:
+        df_aligned.to_csv(path, mode="a", header=False, index=False)
+
+
+async def extract_replay_events_one_shot(page, data_div: str) -> tuple[list[dict], list[dict]]:
+    """
+    Return (markers, cards) for a replay container with id=data_div using ONE browser->python round trip.
+    """
+    payload = await page.evaluate(
+        """(dataDiv) => {
+            const root = document.getElementById(dataDiv);
+            if (!root) return { markers: [], cards: [] };
+
+            const markers = Array.from(root.querySelectorAll('.markers .marker')).map(m => {
+                const x = m.dataset.x;
+                const y = m.dataset.y;
+                const t = m.dataset.t;
+                const s = m.dataset.s;
+                const span = m.querySelector('span');
+                const numTxt = span ? span.textContent : null;
+
+                return {
+                    x: (x && x !== "None") ? parseInt(x, 10) : null,
+                    y: (y && y !== "None") ? parseInt(y, 10) : null,
+                    t: (t && t !== "None") ? parseInt(t, 10) : null,
+                    s: (s && s !== "None") ? s : null,
+                    number: (numTxt && numTxt !== "None") ? parseInt(numTxt, 10) : null,
+                    team: m.classList.contains('red') ? 'red' : 'blue',
+                };
+            });
+
+            const cards = Array.from(root.querySelectorAll('.replay_team img.replay_card')).map(c => {
+                const t = c.dataset.t;
+                const s = c.dataset.s;
+                const ability = c.dataset.ability;
+                const src = c.getAttribute('src');
+
+                let card = null;
+                if (src) {
+                    const last = src.split('/').pop() || '';
+                    card = last.split('.')[0] || null;
+                }
+
+                return {
+                    card,
+                    t: (t && t !== "None") ? parseInt(t, 10) : null,
+                    s: (s && s !== "None") ? s : null,
+                    ability: (ability && ability !== "None") ? parseInt(ability, 10) : null,
+                };
+            });
+
+            return { markers, cards };
+        }""",
+        data_div,
+    )
+    return payload["markers"], payload["cards"]
+
+
 async def scrape_battles(page, pid) -> list[dict]:
     # Check if the page has the expected battle container
     container = page.locator("#scrolling_battle_container .ui.container.sidemargin0.battle_list_container")
@@ -142,57 +227,20 @@ async def scrape_battles(page, pid) -> list[dict]:
         if not await replay_content.is_visible():
             continue
 
-        # Extract markers
-        markers_locator = page.locator(f"#{data_div} .markers .marker")
-        marker_count = await markers_locator.count()
-        marker_list = []
-        for j in range(marker_count):
-            marker = markers_locator.nth(j)
-            x = await marker.get_attribute("data-x")
-            y = await marker.get_attribute("data-y")
-            t = await marker.get_attribute("data-t")
-            s = await marker.get_attribute("data-s")
-            span = marker.locator("span")
-            number = await span.text_content()
-            classes = await marker.get_attribute("class")
-            team = "red" if classes and "red" in classes else "blue"
-            marker_list.append(
-                {
-                    "x": int(x) if x and x != "None" else None,
-                    "y": int(y) if y and y != "None" else None,
-                    "t": int(t) if t and t != "None" else None,
-                    "s": s,
-                    "number": int(number) if number and number != "None" else None,
-                    "team": team,
-                }
-            )
+        # Wait for replay to be populated when possible (skip if no markers / timeout)
+        try:
+            await container.locator(".markers .marker").first.wait_for(timeout=PAGE_TIMEOUT_MS)
+        except Exception:
+            pass  # Still try extraction; may return empty
 
-        # Extract replay_cards
-        replay_cards_locator = page.locator(f"#{data_div} .replay_team img.replay_card")
-        card_count = await replay_cards_locator.count()
-        card_list = []
-        for j in range(card_count):
-            card = replay_cards_locator.nth(j)
-            card_name = await card.get_attribute("src")
-            card_name = card_name.split("/")[-1].split(".")[0] if card_name else None
-            t = await card.get_attribute("data-t")
-            s = await card.get_attribute("data-s")
-            ability = await card.get_attribute("data-ability")
-            card_list.append(
-                {
-                    "card": card_name,
-                    "t": int(t) if t and t != "None" else None,
-                    "s": s,
-                    "ability": int(ability) if ability and ability != "None" else None,
-                }
-            )
+        # One-shot extract in JS (one round trip instead of hundreds of get_attribute calls)
+        marker_list, card_list = await extract_replay_events_one_shot(page, data_div)
 
         marker_list.sort(key=lambda m: m["t"] or 0)
         card_list.sort(key=lambda c: c["t"] or 0)
 
-        assert len(marker_list) == len(card_list), (
-            f"Mismatch in {battle_id}: markers {len(marker_list)}, cards {len(card_list)}"
-        )
+        if len(marker_list) != len(card_list):
+            continue  # Skip this replay; don't crash the whole run
 
         for marker, card in zip(marker_list, card_list):
             results.append(
@@ -234,13 +282,8 @@ async def scrape_battles(page, pid) -> list[dict]:
             meta_df = meta_df[meta_df["replayTag"].astype(str).isin(["#" + key for key in battles.keys()])]
 
             if not meta_df.empty:
-                meta_exists = os.path.exists(BATTLE_META_CSV)
-                if not meta_exists:
-                    meta_df.to_csv(BATTLE_META_CSV, index=False)
-                else:
-                    existing_df = pd.read_csv(BATTLE_META_CSV, low_memory=False)
-                    combined_df = pd.concat([existing_df, meta_df], ignore_index=True)
-                    combined_df.to_csv(BATTLE_META_CSV, index=False)
+                async with META_CSV_LOCK:
+                    append_df_to_csv(BATTLE_META_CSV, meta_df)
         except Exception as e:
             error_msg = f"CSV request exception for player {pid}: {e}\n"
             with open(ERROR_LOG_PATH, "a", encoding="utf8") as f:

@@ -1,67 +1,114 @@
+"""
+Save RoyaleAPI login state for reuse by new_scrape.py.
+Run once, log in manually (and pass any Cloudflare challenge), then press Enter.
+State is written to scraping/myGoogleAuth.json (same path the scraper uses).
+"""
 import asyncio
-from playwright.async_api import async_playwright, Browser, BrowserContext, Page
 import os
-from typing import Dict
+from pathlib import Path
 
-STORAGE_STATE_PATH = os.path.join(os.path.abspath("."), "myGoogleAuth.json")
+from playwright.async_api import async_playwright
 
-STEALTH_ARGS = [
+# ─── Config (must match new_scrape.py) ─────────────────────────────────────
+ROOT_DIR = Path(__file__).resolve().parents[1]
+STORAGE_STATE_PATH = ROOT_DIR / "scraping" / "myGoogleAuth.json"
+PERSISTENT_PROFILE_DIR = ROOT_DIR / "scraping" / "chrome_profile"
+GOTO_URL = "https://royaleapi.com/"
+GOTO_TIMEOUT_MS = 60_000
+
+# Launch options that reduce automation signals without breaking the browser
+LAUNCH_ARGS = [
     "--disable-blink-features=AutomationControlled",
-    "--disable-infobars",
-    "--disable-web-security",
-    "--disable-features=IsolateOrigins,site-per-process",
     "--no-sandbox",
     "--disable-dev-shm-usage",
-    "--start-maximized",
 ]
 
-STEALTH_INIT_SCRIPT = """
-// Remove webdriver flag
-Object.defineProperty(navigator, 'webdriver', {
-  get: () => undefined,
-});
 
-// Fake plugins
-Object.defineProperty(navigator, 'plugins', {
-  get: () => [1, 2, 3, 4],
-});
+async def _apply_stealth_if_available(context):
+    """Apply playwright_stealth when installed; otherwise no-op."""
+    try:
+        from playwright_stealth import Stealth
+        stealth = Stealth()
+        if hasattr(stealth, "apply_stealth_async"):
+            await stealth.apply_stealth_async(context)
+        elif hasattr(stealth, "apply_async"):
+            await stealth.apply_async(context)
+    except ImportError:
+        pass
 
-// Fake languages
-Object.defineProperty(navigator, 'languages', {
-  get: () => ['en-US', 'en'],
-});
-"""
 
-async def create_stealth_context(browser: Browser) -> BrowserContext:
-    context = await browser.new_context(
-        user_agent=(
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/121.0.0.0 Safari/537.36"
-        ),
-        viewport={"width": 1280, "height": 720},
-    )
-    await context.add_init_script(STEALTH_INIT_SCRIPT)
-    return context
-
-async def login_and_save():
+async def login_with_regular_browser():
+    """Use a normal Chromium context. Good default."""
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False, args=STEALTH_ARGS)
-        context = await create_stealth_context(browser)
+        browser = await p.chromium.launch(headless=False, args=LAUNCH_ARGS)
+        context = await browser.new_context(
+            viewport={"width": 1366, "height": 768},
+            locale="en-US",
+        )
+        await _apply_stealth_if_available(context)
         page = await context.new_page()
-        
-        await page.goto("https://royaleapi.com/", wait_until="networkidle")
-        
-        print("Please log in manually in the browser window.")
-        print("Once logged in, press Enter in the terminal to save the session.")
-        
-        input("Press Enter after logging in...")
-        
-        # Save the storage state
-        await context.storage_state(path=STORAGE_STATE_PATH)
-        print(f"Storage state saved to {STORAGE_STATE_PATH}")
-        
-        await browser.close()
+        try:
+            await _do_flow(page, context, browser)
+        finally:
+            await context.close()
+            await browser.close()
+
+
+async def login_with_persistent_chrome():
+    """Use a persistent Chrome profile (real Chrome if installed). Often bypasses Cloudflare better."""
+    async with async_playwright() as p:
+        context = await p.chromium.launch_persistent_context(
+            str(PERSISTENT_PROFILE_DIR),
+            headless=False,
+            channel="chrome",
+            viewport={"width": 1366, "height": 768},
+            locale="en-US",
+        )
+        page = context.pages[0] if context.pages else await context.new_page()
+        try:
+            await _do_flow(page, context, None)
+        finally:
+            await context.close()
+
+
+async def _do_flow(page, context, browser):
+    STORAGE_STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    print("\nNavigating to RoyaleAPI...")
+    await page.goto(GOTO_URL, wait_until="domcontentloaded", timeout=GOTO_TIMEOUT_MS)
+
+    print("\n" + "─" * 60)
+    print("  1. In the browser: sign in (e.g. Google) and pass any Cloudflare check.")
+    print("  2. When you see your profile/avatar, you're logged in.")
+    print("  3. Return here and press ENTER to save the session.")
+    print("─" * 60 + "\n")
+
+    input("Press Enter once fully logged in... ")
+
+    await context.storage_state(path=STORAGE_STATE_PATH)
+    size_kb = STORAGE_STATE_PATH.stat().st_size / 1024
+    print(f"\nSession saved → {STORAGE_STATE_PATH}")
+    print(f"Size: {size_kb:.1f} KB. Use this file in new_scrape.py (it already points here).\n")
+
+
+def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Save RoyaleAPI login state for the scraper.")
+    parser.add_argument(
+        "--persistent",
+        action="store_true",
+        help="Use a persistent Chrome profile (often better against Cloudflare).",
+    )
+    args = parser.parse_args()
+
+    if args.persistent:
+        asyncio.run(login_with_persistent_chrome())
+    else:
+        asyncio.run(login_with_regular_browser())
+
 
 if __name__ == "__main__":
-    asyncio.run(login_and_save())
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nInterrupted.")

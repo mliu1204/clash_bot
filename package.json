@@ -3,9 +3,28 @@
     "https-proxy-agent": "^7.0.6",
     "playwright": "^1.57.0",
     "playwright-extra": "^4.3.6",
-    "puppeteer": "^24.36.1",
+    "puppeteer": "^24.37.5",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "user-agents": "^1.1.669"
-  }
+  },
+  "name": "clash_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mliu1204/clash_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mliu1204/clash_bot/issues"
+  },
+  "homepage": "https://github.com/mliu1204/clash_bot#readme"
 }

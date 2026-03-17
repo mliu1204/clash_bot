@@ -1,3 +1,5 @@
-/node_modeules
+/node_modules
 /data
 /reference_code
+/training/gpu_runs
+/training/ds_planner.pt

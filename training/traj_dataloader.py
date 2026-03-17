@@ -16,7 +16,9 @@ from torch.utils.data import Dataset
 
 TrajMode = Literal["planner", "reacter", "both"]
 
-DEFAULT_TRAJ_PATH = Path(__file__).resolve().parents[1] / "data" / "ready_data" / "traj.csv"
+DATA_DIR = Path(__file__).resolve().parents[1] / "data" 
+DEFAULT_TRAJ_PATH = DATA_DIR / "traj.csv"
+DEFAULT_TRAJ_OKEZUE_PATH = DATA_DIR / "traj_okezue.csv"
 PAD_IDX = 0  # same as vocab["<pad>"]; used to pad variable-length sequences
 
 
@@ -27,9 +29,13 @@ def build_card_vocab(df: pd.DataFrame) -> dict[str, int]:
     if not cols:
         return vocab
     # Single pass over all unique values
-    uniq = pd.unique(df[cols].astype(str).values.ravel())
+    uniq = pd.unique(df[cols].values.ravel())
+
     for name in uniq:
-        name = (name or "").strip()
+        if name is None or (isinstance(name, float) and pd.isna(name)):
+            name = ""
+        else:
+            name = str(name).strip()
         if name and name != "nan" and name not in vocab:
             vocab[name] = len(vocab)
     return vocab
@@ -45,15 +51,17 @@ def _encode_column(vocab: dict[str, int], col: pd.Series) -> np.ndarray:
 
 
 def pad_collate(
-    batch: list[tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]],
-) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
-    """Pad variable-length sequences; return (x_padded, lengths, target_xy, target_card). target_xy is (B, 3): [x, y, time]."""
-    seqs, lengths, tx, ty, ttime, tcard = zip(*batch)
+    batch: list[tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]],
+) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
+    """Pad variable-length sequences; return (x_padded, lengths, target_xy, target_card, reward, done)."""
+    seqs, lengths, tx, ty, ttime, tcard, reward, done = zip(*batch)
     lengths_t = torch.stack(lengths)
     padded = pad_sequence(seqs, batch_first=True, padding_value=float(PAD_IDX))
     target_xy = torch.stack((torch.stack(tx), torch.stack(ty), torch.stack(ttime)), dim=1)
     target_card = torch.stack(tcard)
-    return padded, lengths_t, target_xy, target_card
+    reward_t = torch.stack(reward)
+    done_t = torch.stack(done)
+    return padded, lengths_t, target_xy, target_card, reward_t, done_t
 
 
 class TrajDataset(Dataset):
@@ -88,6 +96,16 @@ class TrajDataset(Dataset):
         self.max_battle_count = max_battle_count
 
         df = pd.read_csv(self.csv_path)
+        # Support traj.csv / traj_okezue.csv / traj_win.csv (reward_shape_data: reward column; done computed if missing)
+        required = {"battle_id", "x", "y", "card", "time", "side"}
+        required.update(f"hand_{i}" for i in range(4))
+        required.update(f"deck_{i}" for i in range(8))
+        missing = required - set(df.columns)
+        if missing:
+            raise ValueError(f"{self.csv_path} missing columns: {sorted(missing)}; has {list(df.columns)}")
+        has_reward = "reward" in df.columns
+        if not has_reward:
+            df["reward"] = 0.0
         # remove the ones that have na in card name entry
         df = df.groupby("battle_id").filter(lambda g: g["card"].notna().all())
         df["x"] = df["x"].fillna(499.000000)
@@ -108,7 +126,7 @@ class TrajDataset(Dataset):
         df.time = df.time/6000.0
         groups = list(df.groupby("battle_id", sort=False))
 
-        self.samples: list[tuple[torch.Tensor, float, float, float, int]] = []
+        self.samples: list[tuple[torch.Tensor, float, float, float, int, float, float]] = []
         x_col = "x"
         y_col = "y"
         time_col = "time"
@@ -134,6 +152,8 @@ class TrajDataset(Dataset):
             card_idx = _encode_column(self.vocab, grp["card"])
             hand_idxs = np.column_stack([_encode_column(self.vocab, grp[c]) for c in hand_cols])
             deck_idxs = np.column_stack([_encode_column(self.vocab, grp[c]) for c in deck_cols])
+
+            reward_vals = grp["reward"].to_numpy(dtype=np.float64) if has_reward else np.zeros(n_rows, dtype=np.float64)
 
             # Two perspectives: team (raw "t") and opponent (raw "o"). Side enc: 1 = current perspective side.
             x_vals = grp[x_col].to_numpy(dtype=np.float64)
@@ -176,13 +196,15 @@ class TrajDataset(Dataset):
                     target_y = (1.0 - raw_ty) if raw_team == "o" else raw_ty
                     target_time = float(time_vals[t])
                     target_card_idx = int(card_idx[t])
-                    self.samples.append((seq_tensor, target_x, target_y, target_time, target_card_idx))
+                    sample_reward = float(reward_vals[t])
+                    sample_done = 1.0 if t == n_rows - 1 else 0.0
+                    self.samples.append((seq_tensor, target_x, target_y, target_time, target_card_idx, sample_reward, sample_done))
 
     def __len__(self) -> int:
         return len(self.samples)
 
-    def __getitem__(self, idx: int) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
-        seq, target_x, target_y, target_time, target_card_idx = self.samples[idx]
+    def __getitem__(self, idx: int) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
+        seq, target_x, target_y, target_time, target_card_idx, reward, done = self.samples[idx]
         length = torch.tensor(seq.size(0), dtype=torch.long)
         return (
             seq,
@@ -191,6 +213,8 @@ class TrajDataset(Dataset):
             torch.tensor(target_y, dtype=torch.float32),
             torch.tensor(target_time, dtype=torch.float32),
             torch.tensor(target_card_idx, dtype=torch.long),
+            torch.tensor(reward, dtype=torch.float32),
+            torch.tensor(done, dtype=torch.float32),
         )
 
     def get_vocab(self) -> dict[str, int]:
@@ -213,7 +237,7 @@ def get_traj_dataloader(
     mode: TrajMode = "both",
     max_battle_count: int | None = None,
 ):
-    """Build TrajDataset and return a DataLoader. Each batch is (x, lengths, target_xy, target_card).
+    """Build TrajDataset and return a DataLoader. Each batch is (x, lengths, target_xy, target_card, reward, done).
     mode: "planner" (team→team), "reacter" (opponent→team), "both". max_battle_count: cap battles for testing."""
     from torch.utils.data import DataLoader
 
@@ -233,18 +257,103 @@ def get_traj_dataloader(
     )
 
 
+def save_dataset_pt(csv_path: str | Path | None = None, out_dir: str | Path | None = None) -> None:
+    """Build TrajDataset for each mode and save to ds_{mode}.pt in out_dir."""
+    csv_path = csv_path or DEFAULT_TRAJ_PATH
+    out_dir = Path(out_dir or DATA_DIR)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for mode in ("planner", "reacter", "both"):
+        print(f"saving {mode}")
+        ds = TrajDataset(str(csv_path), skip_ability=True, mode=mode)
+        out_path = out_dir / f"ds_{mode}.pt"
+        torch.save(
+            {
+                "samples": ds.samples,
+                "vocab": ds.vocab,
+                "idx_to_card": ds.idx_to_card,
+                "num_cards": ds.num_cards,
+                "mode": mode,
+            },
+            out_path,
+        )
+        print(f"Saved {len(ds)} samples -> {out_path}")
+
+
+class SavedTrajDataset(Dataset):
+    """Dataset wrapper for the dict saved by save_dataset_pt()."""
+
+    def __init__(self, payload: dict):
+        self.samples = payload["samples"]
+        self.vocab = payload.get("vocab", {})
+        self.idx_to_card = payload.get("idx_to_card", {})
+        self.num_cards = payload.get("num_cards", len(self.vocab))
+        self.mode = payload.get("mode", "unknown")
+
+    def __len__(self) -> int:
+        return len(self.samples)
+
+    def __getitem__(self, idx: int):
+        seq, target_x, target_y, target_time, target_card_idx, reward, done = self.samples[idx]
+        length = torch.tensor(seq.size(0), dtype=torch.long)
+        return (
+            seq,
+            length,
+            torch.tensor(float(target_x), dtype=torch.float32),
+            torch.tensor(float(target_y), dtype=torch.float32),
+            torch.tensor(float(target_time), dtype=torch.float32),
+            torch.tensor(int(target_card_idx), dtype=torch.long),
+            torch.tensor(float(reward), dtype=torch.float32),
+            torch.tensor(float(done), dtype=torch.float32),
+        )
+
+    def get_card_name(self, idx: int) -> str:
+        return self.idx_to_card.get(int(idx), "<unk>")
+
+
 if __name__ == "__main__":
+    import sys
     from torch.nn.utils.rnn import pack_padded_sequence
     from torch.utils.data import DataLoader
 
-    ds = TrajDataset(DEFAULT_TRAJ_PATH, skip_ability=True)
-    print(f"TrajDataset: {len(ds)} samples, vocab size = {ds.get_num_cards()}")
+    # Usage:
+    #   python traj_dataloader.py                 # test existing ds_both.pt
+    #   python traj_dataloader.py test planner    # test existing ds_planner.pt
+    #   python traj_dataloader.py build [win|okezue]  # rebuild + save from CSV
+
+    arg1 = sys.argv[1] if len(sys.argv) > 1 else "test"
+    if arg1 == "build":
+        source = sys.argv[2] if len(sys.argv) > 2 else ""
+        if source == "okezue":
+            csv_path = DEFAULT_TRAJ_OKEZUE_PATH
+        elif source == "win":
+            csv_path = DATA_DIR / "traj_win.csv"
+        else:
+            csv_path = DEFAULT_TRAJ_PATH
+        print(f"Building from {csv_path}")
+        save_dataset_pt(csv_path=csv_path)
+        mode = "both"
+    else:
+        mode = sys.argv[2] if (len(sys.argv) > 2 and arg1 == "test") else "both"
+
+    pt_path = DATA_DIR / f"ds_{mode}.pt"
+    print(f"Testing saved dataset {pt_path}")
+    payload = torch.load(pt_path, weights_only=False)
+    ds = SavedTrajDataset(payload)
+    print(f"SavedTrajDataset: {len(ds)} samples, vocab size = {ds.num_cards}, mode={ds.mode}")
 
     loader = DataLoader(ds, batch_size=8, shuffle=True, collate_fn=pad_collate)
-    for x, lengths, target_xy, target_card in loader:
+    for x, lengths, target_xy, target_card, reward, done in loader:
         print(f"x shape: {x.shape}, lengths: {lengths.tolist()}")
-        print(f"target_xy shape: {target_xy.shape}, target_card shape: {target_card.shape}")
-        print(f"first target: (x,y,time)=({target_xy[0,0].item():.4f}, {target_xy[0,1].item():.4f}, {target_xy[0,2].item():.4f}), card={ds.get_card_name(target_card[0].item())}")
+        print(
+            f"target_xy shape: {target_xy.shape}, target_card shape: {target_card.shape}, "
+            f"reward: {reward.shape}, done: {done.shape}"
+            f"raw reward: {reward}, raw done: {done}"
+        )
+        print(
+            f"first target: (x,y,time)=({target_xy[0,0].item():.4f}, {target_xy[0,1].item():.4f}, "
+            f"{target_xy[0,2].item():.4f}), card={ds.get_card_name(target_card[0].item())}"
+        )
         packed = pack_padded_sequence(x, lengths, batch_first=True, enforce_sorted=False)
         break
     print("Data loader OK.")
+
