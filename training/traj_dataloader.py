@@ -1,10 +1,3 @@
-"""
-Data loader for traj.csv: battle placement sequences with hand/deck context.
-Each battle appears twice: once from team's perspective, once from opponent's.
-Side is always encoded as team=1 / opponent=0 for the current perspective; the target
-is always the next action of the current side (team), so the model always predicts "team" move.
-"""
-
 from pathlib import Path
 from typing import Literal
 
@@ -19,16 +12,14 @@ TrajMode = Literal["planner", "reacter", "both"]
 DATA_DIR = Path(__file__).resolve().parents[1] / "data" 
 DEFAULT_TRAJ_PATH = DATA_DIR / "traj.csv"
 DEFAULT_TRAJ_OKEZUE_PATH = DATA_DIR / "traj_okezue.csv"
-PAD_IDX = 0  # same as vocab["<pad>"]; used to pad variable-length sequences
+PAD_IDX = 0
 
 
 def build_card_vocab(df: pd.DataFrame) -> dict[str, int]:
-    """Build card name -> index from card, hand_*, and deck_* columns. Index 0 = padding/unknown."""
     vocab: dict[str, int] = {"<pad>": 0, "<unk>": 1}
     cols = [c for c in (["card"] + [f"hand_{i}" for i in range(4)] + [f"deck_{i}" for i in range(8)]) if c in df.columns]
     if not cols:
         return vocab
-    # Single pass over all unique values
     uniq = pd.unique(df[cols].values.ravel())
 
     for name in uniq:
@@ -46,14 +37,12 @@ def encode_card(vocab: dict[str, int], name: str) -> int:
 
 
 def _encode_column(vocab: dict[str, int], col: pd.Series) -> np.ndarray:
-    """Vectorized encode of a column of card names to indices."""
     return col.map(lambda x: encode_card(vocab, x)).to_numpy(dtype=np.int64)
 
 
 def pad_collate(
     batch: list[tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]],
 ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
-    """Pad variable-length sequences; return (x_padded, lengths, target_xy, target_card, reward, done)."""
     seqs, lengths, tx, ty, ttime, tcard, reward, done = zip(*batch)
     lengths_t = torch.stack(lengths)
     padded = pad_sequence(seqs, batch_first=True, padding_value=float(PAD_IDX))
@@ -65,38 +54,19 @@ def pad_collate(
 
 
 class TrajDataset(Dataset):
-    """
-    Dataset over traj.csv: each battle appears twice (team perspective, opponent perspective).
-    Side in features is always team=1 / opponent=0 for the current perspective.
-    Target is always the next action of the current side (team): (x, y, time, card).
-
-    Modes:
-      - "planner": only (team → team): last move in sequence was team, next move (target) is team.
-      - "reacter": only (opponent → team): last move in sequence was opponent, next move (target) is team.
-      - "both": include all samples where target is team (no filter on who made the last move).
-    """
-
     def __init__(
         self,
         csv_path: str | Path = DEFAULT_TRAJ_PATH,
         skip_ability: bool = True,
         mode: TrajMode = "both",
         max_battle_count: int | None = None,
-    ):
-        """
-        Args:
-            csv_path: Path to traj.csv.
-            skip_ability: If True, drop rows where card contains "ability".
-            mode: "planner" (team→team), "reacter" (opponent→team), or "both".
-            max_battle_count: If set, only process this many battles (for faster testing). None = use all.
-        """
+        ):
         self.csv_path = Path(csv_path)
         self.skip_ability = skip_ability
         self.mode = mode
         self.max_battle_count = max_battle_count
 
         df = pd.read_csv(self.csv_path)
-        # Support traj.csv / traj_okezue.csv / traj_win.csv (reward_shape_data: reward column; done computed if missing)
         required = {"battle_id", "x", "y", "card", "time", "side"}
         required.update(f"hand_{i}" for i in range(4))
         required.update(f"deck_{i}" for i in range(8))
@@ -106,7 +76,6 @@ class TrajDataset(Dataset):
         has_reward = "reward" in df.columns
         if not has_reward:
             df["reward"] = 0.0
-        # remove the ones that have na in card name entry
         df = df.groupby("battle_id").filter(lambda g: g["card"].notna().all())
         df["x"] = df["x"].fillna(499.000000)
         df["y"] = df["y"].fillna(499.000000)
@@ -134,7 +103,6 @@ class TrajDataset(Dataset):
         hand_cols = [f"hand_{i}" for i in range(4)]
         deck_cols = [f"deck_{i}" for i in range(8)]
 
-        # Raw CSV: side "t" = team (blue), "o" = opponent (red)
         for i, (_battle_id, grp) in enumerate(groups):
             if self.max_battle_count is not None and i >= self.max_battle_count:
                 break
@@ -143,8 +111,6 @@ class TrajDataset(Dataset):
             grp = grp.reset_index(drop=True)
             if len(grp) < 2:
                 continue
-
-            # Precompute normalized numerics and indices for the whole battle (vectorized)
 
             n_rows = len(grp)
             side_is_t = (grp[side_col].astype(str).str.strip() == "t").to_numpy()
@@ -155,14 +121,13 @@ class TrajDataset(Dataset):
 
             reward_vals = grp["reward"].to_numpy(dtype=np.float64) if has_reward else np.zeros(n_rows, dtype=np.float64)
 
-            # Two perspectives: team (raw "t") and opponent (raw "o"). Side enc: 1 = current perspective side.
             x_vals = grp[x_col].to_numpy(dtype=np.float64)
             y_vals = grp[y_col].to_numpy(dtype=np.float64)
             time_vals = grp[time_col].to_numpy(dtype=np.float64)
 
             for raw_team in ("t", "o"):
                 side_enc = side_is_t.astype(np.float32) if raw_team == "t" else (~side_is_t).astype(np.float32)
-                target_ok = side_is_t if raw_team == "t" else ~side_is_t  # target row must be this side
+                target_ok = side_is_t if raw_team == "t" else ~side_is_t
                 if raw_team == "o":
                     x_feat = (1.0 - x_vals).astype(np.float32)
                     y_feat = (1.0 - y_vals).astype(np.float32)
@@ -172,13 +137,12 @@ class TrajDataset(Dataset):
 
                 for t in range(1, n_rows):
                     if not target_ok[t]:
-                        continue  # target must be current side's next move
+                        continue
                     last_move_was_team = side_enc[t - 1] > 0.5
                     if self.mode == "planner" and not last_move_was_team:
                         continue
                     if self.mode == "reacter" and last_move_was_team:
                         continue
-                    # Build step matrix for indices [0:t] in one go (no iterrows)
                     sl = slice(0, t)
                     steps = np.concatenate([
                         x_feat[sl, np.newaxis],
@@ -224,7 +188,6 @@ class TrajDataset(Dataset):
         return self.num_cards
 
     def get_card_name(self, idx: int) -> str:
-        """Decode card index to name (e.g. for logging)."""
         return self.idx_to_card.get(int(idx), "<unk>")
 
 
@@ -237,8 +200,6 @@ def get_traj_dataloader(
     mode: TrajMode = "both",
     max_battle_count: int | None = None,
 ):
-    """Build TrajDataset and return a DataLoader. Each batch is (x, lengths, target_xy, target_card, reward, done).
-    mode: "planner" (team→team), "reacter" (opponent→team), "both". max_battle_count: cap battles for testing."""
     from torch.utils.data import DataLoader
 
     dataset = TrajDataset(
@@ -258,7 +219,6 @@ def get_traj_dataloader(
 
 
 def save_dataset_pt(csv_path: str | Path | None = None, out_dir: str | Path | None = None) -> None:
-    """Build TrajDataset for each mode and save to ds_{mode}.pt in out_dir."""
     csv_path = csv_path or DEFAULT_TRAJ_PATH
     out_dir = Path(out_dir or DATA_DIR)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -280,8 +240,6 @@ def save_dataset_pt(csv_path: str | Path | None = None, out_dir: str | Path | No
 
 
 class SavedTrajDataset(Dataset):
-    """Dataset wrapper for the dict saved by save_dataset_pt()."""
-
     def __init__(self, payload: dict):
         self.samples = payload["samples"]
         self.vocab = payload.get("vocab", {})
@@ -314,11 +272,6 @@ if __name__ == "__main__":
     import sys
     from torch.nn.utils.rnn import pack_padded_sequence
     from torch.utils.data import DataLoader
-
-    # Usage:
-    #   python traj_dataloader.py                 # test existing ds_both.pt
-    #   python traj_dataloader.py test planner    # test existing ds_planner.pt
-    #   python traj_dataloader.py build [win|okezue]  # rebuild + save from CSV
 
     arg1 = sys.argv[1] if len(sys.argv) > 1 else "test"
     if arg1 == "build":

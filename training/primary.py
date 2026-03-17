@@ -16,12 +16,12 @@ from traj_dataloader import (
     pad_collate,
 )
 
-# Raw per-step layout:
-# [x, y, time, side, hand_0, hand_1, hand_2, hand_3,
-#  deck_0, deck_1, deck_2, deck_3, deck_4, deck_5, deck_6, deck_7, card]
+                      
+                                                    
+                                                                        
 RAW_FEAT_SIZE = 17
-CONT_FEAT_SIZE = 4          # x, y, time, side
-NUM_CAT_FIELDS = 13         # 4 hand + 8 deck + 1 played/current card
+CONT_FEAT_SIZE = 4                            
+NUM_CAT_FIELDS = 13                                                  
 
 
 class TrajLSTM(nn.Module):
@@ -100,14 +100,14 @@ class TrajLSTM(nn.Module):
         x: (B, T, 17)
         returns: (B, T, 4 + 13 * emb_dim)
         """
-        cont = x[:, :, :CONT_FEAT_SIZE]            # float features
-        cats = x[:, :, CONT_FEAT_SIZE:].long()     # card-id features
+        cont = x[:, :, :CONT_FEAT_SIZE]                            
+        cats = x[:, :, CONT_FEAT_SIZE:].long()                       
 
-        # Clamp just in case any out-of-range IDs appear
+                                                        
         cats = cats.clamp(min=0, max=self.num_cards - 1)
 
-        emb = self.card_emb(cats)                  # (B, T, 13, emb_dim)
-        emb = emb.flatten(start_dim=2)             # (B, T, 13 * emb_dim)
+        emb = self.card_emb(cats)                                       
+        emb = emb.flatten(start_dim=2)                                   
 
         z = torch.cat([cont, emb], dim=-1)
         return z
@@ -691,7 +691,7 @@ def test_saved_model(
         true_card_idx = int(target_card)
         true_card_name = dataset.get_card_name(true_card_idx)
 
-        # Hand & deck at last time step (context at prediction time): seq layout [x, y, time, side, hand_0..3, deck_0..7, card]
+                                                                                                                               
         last_step = seq[L - 1]
         hand_at_pred = [
             dataset.get_card_name(int(last_step[j].item()))
@@ -731,33 +731,33 @@ if __name__ == "__main__":
 
     print(f"Training {mode}")
 
-    # model, history, config = train_traj_lstm(
-    #     mode=mode,
-    #     num_epochs=10,
-    #     batch_size=64,
-    #     hidden_size=128,
-    #     num_layers=2,
-    #     emb_dim=16,
-    #     learning_rate=1e-3,
-    #     dropout=0.2,
-    #     val_frac=0.15,
-    #     max_battle_count=10000,
-    #     plot_curve=True,
-    #     curve_save_path=f"results/{mode}_curve.png",
-    #     checkpoint_dir="checkpoints",
-    #     dataset_cache_path=f"ds_{mode}.pt",
-    # )
+                                               
+                    
+                        
+                        
+                          
+                       
+                     
+                             
+                      
+                        
+                                 
+                          
+                                                      
+                                       
+                                             
+       
 
-    # final_model_path = f"{mode}_model.pt"
-    # torch.save(
-    #     {
-    #         "state_dict": model.state_dict(),
-    #         "config": config,
-    #         "history": history,
-    #     },
-    #     final_model_path,
-    # )
-    # print(f"Final model saved to {final_model_path}")
+                                           
+                 
+           
+                                               
+                               
+                                 
+            
+                           
+       
+                                                       
 
     test_saved_model(
         model_path="checkpoints/planner_epoch_7.pt",

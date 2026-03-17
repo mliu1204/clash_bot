@@ -14,8 +14,8 @@ from tqdm.auto import tqdm
 LOG_STD_MIN = -5.0
 LOG_STD_MAX = 2.0
 
-# Trajectory feature layout (must match training/primary.py and traj_dataloader.py)
-# [x, y, time, side, hand_0..3, deck_0..7, card] -> 4 + 13 = 17
+                                                                                   
+                                                               
 CONT_FEAT_SIZE = 4
 NUM_CAT_FIELDS = 13
 
@@ -26,7 +26,7 @@ def masked_mean(x: torch.Tensor, lengths: torch.Tensor) -> torch.Tensor:
     lengths: [B]
     returns final valid hidden state per sequence: [B, D]
     """
-    idx = (lengths - 1).clamp(min=0)  # [B]
+    idx = (lengths - 1).clamp(min=0)       
     return x[torch.arange(x.size(0), device=x.device), idx]
 
 
@@ -50,7 +50,7 @@ class SequenceEncoder(nn.Module):
 
     def __init__(
         self,
-        state_dim: int,   # expected 17, kept for API compatibility
+        state_dim: int,                                            
         num_cards: int,
         hidden_dim: int = 256,
         num_layers: int = 2,
@@ -84,11 +84,11 @@ class SequenceEncoder(nn.Module):
         x: [B, T, 17]
         returns: [B, T, 4 + 13 * emb_dim]
         """
-        cont = x[:, :, :CONT_FEAT_SIZE]           # float features
-        cats = x[:, :, CONT_FEAT_SIZE:].long()    # card-id features
+        cont = x[:, :, :CONT_FEAT_SIZE]                           
+        cats = x[:, :, CONT_FEAT_SIZE:].long()                      
         cats = cats.clamp(min=0, max=self.num_cards - 1)
-        emb = self.card_emb(cats)                # [B, T, 13, emb_dim]
-        emb = emb.flatten(start_dim=2)           # [B, T, 13 * emb_dim]
+        emb = self.card_emb(cats)                                     
+        emb = emb.flatten(start_dim=2)                                 
         return torch.cat([cont, emb], dim=-1)
 
     def forward(self, states: torch.Tensor, lengths: torch.Tensor) -> torch.Tensor:
@@ -133,7 +133,7 @@ class HybridPolicyLSTM(nn.Module):
 
         self.logits_head = nn.Linear(hidden_dim, num_discrete)
 
-        # For each discrete action, predict mean/log_std for continuous params
+                                                                              
         self.mu_head = nn.Linear(hidden_dim, num_discrete * cont_dim)
         self.log_std_head = nn.Linear(hidden_dim, num_discrete * cont_dim)
 
@@ -144,9 +144,9 @@ class HybridPolicyLSTM(nn.Module):
           mu_all: [B, A, C]
           log_std_all: [B, A, C]
         """
-        h = self.encoder(states, lengths)  # [B, H]
+        h = self.encoder(states, lengths)          
 
-        logits = self.logits_head(h)  # [B, A]
+        logits = self.logits_head(h)          
 
         mu_all = self.mu_head(h).view(-1, self.num_discrete, self.cont_dim)
         log_std_all = self.log_std_head(h).view(-1, self.num_discrete, self.cont_dim)
@@ -167,21 +167,21 @@ class HybridPolicyLSTM(nn.Module):
         B, T, D = states.shape
         device = states.device
 
-        # Index of last real step per sequence
+                                              
         idx = (lengths - 1).clamp(min=0)
-        last = states[torch.arange(B, device=device), idx]  # [B, D]
+        last = states[torch.arange(B, device=device), idx]          
 
-        # hand_0..hand_3 are positions 4..7
-        hand_ids = last[:, CONT_FEAT_SIZE : CONT_FEAT_SIZE + 4].long()  # [B, 4]
+                                           
+        hand_ids = last[:, CONT_FEAT_SIZE : CONT_FEAT_SIZE + 4].long()          
         hand_ids = hand_ids.clamp(min=0, max=self.num_discrete - 1)
 
-        # Build boolean mask [B, A]; allow only cards present in hand (ignore id 0 as "pad/none")
+                                                                                                 
         valid = torch.zeros(B, self.num_discrete, device=device, dtype=torch.bool)
         valid.scatter_(1, hand_ids, True)
-        # Treat index 0 as invalid (pad/unknown)
+                                                
         valid[:, 0] = False
 
-        # If for some sample mask is all False, fall back to unmasked logits for that sample
+                                                                                            
         masked_logits = logits.masked_fill(~valid, float("-inf"))
         all_invalid = ~valid.any(dim=1)
         if all_invalid.any():
@@ -200,34 +200,34 @@ class HybridPolicyLSTM(nn.Module):
           probs: [B, A]
         """
         logits, mu_all, log_std_all = self.forward(states, lengths)
-        # Mask out cards not currently in hand
+                                              
         logits = self._mask_logits_by_hand(states, lengths, logits)
         probs = F.softmax(logits, dim=-1)
 
-        # straight-through differentiable discrete sample
-        disc_onehot = gumbel_softmax_sample(logits, tau=temperature, hard=True)  # [B, A]
-        disc_index = disc_onehot.argmax(dim=-1)  # [B]
+                                                         
+        disc_onehot = gumbel_softmax_sample(logits, tau=temperature, hard=True)          
+        disc_index = disc_onehot.argmax(dim=-1)       
 
-        # log p(discrete)
-        log_probs_disc_all = F.log_softmax(logits, dim=-1)  # [B, A]
-        logp_disc = (disc_onehot * log_probs_disc_all).sum(dim=-1)  # [B]
+                         
+        log_probs_disc_all = F.log_softmax(logits, dim=-1)          
+        logp_disc = (disc_onehot * log_probs_disc_all).sum(dim=-1)       
 
-        # select Gaussian params for chosen discrete action
-        chooser = disc_onehot.unsqueeze(-1)  # [B, A, 1]
-        mu = (mu_all * chooser).sum(dim=1)  # [B, C]
-        log_std = (log_std_all * chooser).sum(dim=1)  # [B, C]
+                                                           
+        chooser = disc_onehot.unsqueeze(-1)             
+        mu = (mu_all * chooser).sum(dim=1)          
+        log_std = (log_std_all * chooser).sum(dim=1)          
         std = log_std.exp()
 
-        # Replace any NaNs / infs to keep Normal well-defined
+                                                             
         mu = torch.nan_to_num(mu, nan=0.0, posinf=0.0, neginf=0.0)
         std = torch.nan_to_num(std, nan=1.0, posinf=1.0, neginf=1.0)
         std = std.clamp_min(1e-3)
 
         dist = Normal(mu, std)
-        z = dist.rsample()                  # [B, C]
-        cont_action = torch.tanh(z)        # [B, C]
+        z = dist.rsample()                          
+        cont_action = torch.tanh(z)                
 
-        # log p(continuous | discrete, s), with tanh correction
+                                                               
         logp_cont = dist.log_prob(z).sum(dim=-1)
         logp_cont -= torch.log(1 - cont_action.pow(2) + 1e-6).sum(dim=-1)
 
@@ -277,21 +277,21 @@ class HybridQLSTM(nn.Module):
         cont_action: [B, C]
         returns: [B]
         """
-        h = self.encoder(states, lengths)  # [B, H]
+        h = self.encoder(states, lengths)          
         x = torch.cat([h, disc_onehot, cont_action], dim=-1)
         return self.q_mlp(x).squeeze(-1)
 
 
 @dataclass
 class SACBatch:
-    states: torch.Tensor          # [B, T, state_dim]
-    lengths: torch.Tensor         # [B]
-    disc_actions: torch.Tensor    # [B] integer labels
-    cont_actions: torch.Tensor    # [B, cont_dim]
-    rewards: torch.Tensor         # [B]
-    next_states: torch.Tensor     # [B, T2, state_dim]
-    next_lengths: torch.Tensor    # [B]
-    dones: torch.Tensor           # [B] 0/1
+    states: torch.Tensor                             
+    lengths: torch.Tensor              
+    disc_actions: torch.Tensor                        
+    cont_actions: torch.Tensor                   
+    rewards: torch.Tensor              
+    next_states: torch.Tensor                         
+    next_lengths: torch.Tensor         
+    dones: torch.Tensor                    
 
 
 class HybridSACLSTM(nn.Module):
@@ -384,9 +384,9 @@ class HybridSACLSTM(nn.Module):
         }
 
 
-# --------------------------
-# Example training step
-# --------------------------
+                            
+                       
+                            
 
 def train_step(
     agent: HybridSACLSTM,
@@ -395,14 +395,14 @@ def train_step(
     q_optimizer: torch.optim.Optimizer,
     temperature: float = 1.0,
 ):
-    # critic update
+                   
     q_optimizer.zero_grad()
     q_loss, q_info = agent.critic_loss(batch)
     q_loss.backward()
     torch.nn.utils.clip_grad_norm_(list(agent.q1.parameters()) + list(agent.q2.parameters()), 1.0)
     q_optimizer.step()
 
-    # policy update
+                   
     policy_optimizer.zero_grad()
     pi_loss, pi_info = agent.policy_loss(batch, temperature=temperature)
     pi_loss.backward()
@@ -417,9 +417,9 @@ def train_step(
     return info
 
 
-# --------------------------
-# Trajectory dataloader adapter
-# --------------------------
+                            
+                               
+                            
 
 def _append_next_step(
     states: torch.Tensor,
@@ -434,15 +434,15 @@ def _append_next_step(
     """
     device = states.device
     B, T, D = states.shape
-    idx = (lengths - 1).clamp(min=0)  # [B]
-    last = states[torch.arange(B, device=device), idx].clone()  # [B, D]
+    idx = (lengths - 1).clamp(min=0)       
+    last = states[torch.arange(B, device=device), idx].clone()          
 
-    # state layout from traj_dataloader: [x, y, time, side, hand_0..3, deck_0..7, card]
+                                                                                       
     last[:, 0:3] = target_xy.to(device, dtype=states.dtype)
     last[:, 3] = 1.0
     last[:, -1] = target_card.to(device, dtype=states.dtype)
 
-    next_states = torch.cat([states, last.unsqueeze(1)], dim=1)  # [B, T+1, D]
+    next_states = torch.cat([states, last.unsqueeze(1)], dim=1)               
     next_lengths = lengths + 1
     return next_states, next_lengths
 
@@ -494,7 +494,7 @@ def load_traj_card_head_into_policy(
     payload = torch.load(ckpt_path, map_location="cpu")
     state_dict = payload.get("model_state", payload.get("model", payload))
 
-    # 1) Copy LSTM parameters into policy.encoder.lstm
+                                                      
     enc_sd = agent.policy.encoder.state_dict()
     updated_lstm = 0
     for name, param in state_dict.items():
@@ -507,9 +507,9 @@ def load_traj_card_head_into_policy(
         raise ValueError(f"No matching LSTM parameters found to load from {ckpt_path}")
     agent.policy.encoder.load_state_dict(enc_sd, strict=False)
 
-    # 2) Copy TrajLSTM card_head last linear layer into policy.logits_head
-    # TrajLSTM card_head is Sequential:
-    #   [0] Linear(H,H) -> [1] ReLU -> [2] Dropout -> [3] Linear(H,num_cards)
+                                                                          
+                                       
+                                                                             
     w_key = "card_head.3.weight"
     b_key = "card_head.3.bias"
     if w_key not in state_dict or b_key not in state_dict:
@@ -619,26 +619,26 @@ def train_epochs(
             writer.add_scalar("epoch/target_mean", avg["target_mean"], ep)
 
 
-# --------------------------
-# Minimal usage example
-# --------------------------
+                            
+                       
+                            
 
 if __name__ == "__main__":
     import sys
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    # Usage:
-    #   python training/CQL.py                          -> CSV: traj_win.csv if exists else traj.csv
-    #   python training/CQL.py win                      -> CSV: traj_win.csv
-    #   python training/CQL.py okezue                   -> CSV: traj_okezue.csv
-    #   python training/CQL.py pt [mode]                -> saved dataset: data/ready_data/ds_{mode}.pt (mode default: both)
-    #   python training/CQL.py ... --init_card_ckpt X   -> hot-start policy encoder from TrajLSTM checkpoint X
-    #
-    # Notes:
-    #   - Saved .pt files are created by: python training/traj_dataloader.py build [win|okezue]
+            
+                                                                                                    
+                                                                            
+                                                                               
+                                                                                                                           
+                                                                                                              
+     
+            
+                                                                                               
 
-    # crude arg parsing: look for optional --init_card_ckpt path at the end
+                                                                           
     argv = list(sys.argv[1:])
     init_ckpt = None
     if "--init_card_ckpt" in argv:
@@ -646,7 +646,7 @@ if __name__ == "__main__":
         if idx + 1 >= len(argv):
             raise ValueError("--init_card_ckpt given without path")
         init_ckpt = argv[idx + 1]
-        # remove from argv so rest of code sees clean positional args
+                                                                     
         del argv[idx : idx + 2]
 
     arg1 = argv[0] if len(argv) > 0 else ""
@@ -698,8 +698,8 @@ if __name__ == "__main__":
 
     cont_dim = 3
 
-    # Choose hidden_dim / num_layers / emb_dim; if a TrajLSTM checkpoint is provided, try to
-    # align with its config for compatibility, otherwise use the larger default.
+                                                                                            
+                                                                                
     hidden_dim = 384
     num_layers = 2
     emb_dim = 16
@@ -720,7 +720,7 @@ if __name__ == "__main__":
                 f"Using hidden_dim={hidden_dim}, num_layers={num_layers}, emb_dim={emb_dim} "
                 f"from TrajLSTM config"
             )
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:                
             print(f"Could not read config from {init_ckpt}: {e}; using default hidden_dim={hidden_dim}, num_layers={num_layers}")
 
     agent = HybridSACLSTM(
@@ -736,7 +736,7 @@ if __name__ == "__main__":
         device=device,
     )
 
-    # Optional hot-start: only inherit card-prediction head parameters
+                                                                      
     if init_ckpt is not None:
         print(f"Hot-starting policy card head from {init_ckpt}")
         load_traj_card_head_into_policy(agent, init_ckpt, strict=False)
@@ -744,13 +744,13 @@ if __name__ == "__main__":
     policy_optimizer = torch.optim.Adam(agent.policy.parameters(), lr=3e-4)
     q_optimizer = torch.optim.Adam(list(agent.q1.parameters()) + list(agent.q2.parameters()), lr=3e-4)
 
-    # TensorBoard writer (TensorFlow event files) in same folder as this script
+                                                                               
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     run_name = f"cql_{'pt' if arg1 in ('pt', 'saved') else 'csv'}_{timestamp}"
     runs_root = Path(__file__).resolve().parent / "runs"
     writer = SummaryWriter(log_dir=str(runs_root / run_name))
 
-    # Train for epochs
+                      
     epochs = 5
     train_epochs(
         agent,
